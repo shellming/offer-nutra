@@ -1,0 +1,192 @@
+/* Color tables */
+body {
+  /* general */
+  /* end general */
+}
+body strong {
+  font-weight: 800!important;
+}
+body .row {
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+}
+body .color_red {
+  color: red;
+}
+body .font-weight-bold {
+  font-weight: 800!important;
+}
+body .lead {
+  font-weight: 800!important;
+}
+body .col {
+  padding-left: 0;
+  padding-right: 0;
+}
+body header .social-media {
+  display: flex;
+  justify-content: space-evenly;
+}
+body header .social-media a {
+  cursor: pointer;
+}
+body header .logo-container {
+  background-color: #cc2172;
+}
+body header .logo-container img {
+  max-width: 200px;
+}
+body header .logo-container .logo-subtitle {
+  bottom: -2px;
+  color: black;
+  margin-left: 5%;
+  font-family: "Open Sans";
+  font-weight: 100;
+  font-size: 17px;
+}
+body header .header-image-container .facebook-button {
+  width: 100px;
+  bottom: 0%;
+  left: 5%;
+  border-radius: 5px;
+  background-color: rgba(52, 88, 157, 0.5);
+}
+body header .header-image-container .facebook-button .left-side {
+  border-radius: 5px;
+  background-color: #34589d;
+}
+body header .profesor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body header .profesor img {
+  margin-right: 10px;
+  width: 59px;
+  height: 59px;
+  border-radius: 100%;
+}
+body header .profesor p {
+  margin: 0;
+}
+body header .publication-date {
+  font-size: 0.6rem;
+}
+body main .doctor-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+body main .doctor-card-container .doctor-card {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+body main .doctor-card-container .doctor-card .doctor-card-img-container {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  text-align: center;
+  padding: 0;
+}
+@media only screen and (max-width: 575px) {
+  body main .doctor-card-container .doctor-card .doctor-card-img-container {
+    width: 75px;
+    height: 75px;
+  }
+}
+body main .doctor-card-container .doctor-card .doctor-card-img-container img {
+  height: 100%;
+  max-width: unset;
+}
+body main .doctor-card-container .doctor-card .doctor-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+  text-align: center;
+}
+body main .doctor-card-container .doctor-card .doctor-card-content .doctor-card-name {
+  background-color: #9a1a51;
+  color: white;
+  font-weight: 800;
+  padding: 0.5rem;
+}
+@media only screen and (max-width: 575px) {
+  body main .doctor-card-container .doctor-card .doctor-card-content .doctor-card-name {
+    font-size: 80%;
+  }
+}
+body main .doctor-card-container .doctor-card .doctor-card-content .doctor-card-title {
+  display: none;
+}
+body main .slider-container .slider-arrow-left {
+  left: 0;
+  top: 45%;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+body main .slider-container .slider-arrow-right {
+  right: 0;
+  top: 45%;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+body main .slider-container .slider-content .slider-slide-wrapper {
+  background-image: url('../../quote.png');
+  background-repeat: no-repeat;
+  background-position: 90% 10%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  background-color: white;
+  max-width: 500px;
+}
+body main .slider-container .slider-content .slider-slide-wrapper img {
+  max-width: 80%;
+}
+body main .warning-block {
+  background-color: #f7ddde;
+  border: 3px solid #f6c6c6;
+}
+body main .link-blue {
+  color: #0000f0 !important;
+}
+body main .comment-image {
+  max-width: 70px;
+}
+body main .comment-button {
+  border-radius: 5px;
+}
+body main .comment-button .left-side {
+  border-radius: 5px;
+}
+body footer {
+  background-color: #cc2172;
+}
+body .slick-slide {
+  outline: none!important;
+}
+body .bg-lightgray {
+  background-color: #f5f5f5!important;
+}
+body .bg-lightgreen {
+  background-color: #f5f5f5!important;
+}
+body .bg-lightred {
+  background-color: #f5f5f5!important;
+}
+body img {
+  max-width: 100%;
+}
+body .spacer {
+  width: 100%;
+  height: 5px;
+  background-color: #DDDEE3;
+  position: absolute;
+  left: 0;
+}
+/*# sourceMappingURL=style.css.map */

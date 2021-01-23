@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="google-site-verification" content="FoJ9GrzK3eG4dId2i2JxyHKPuxAUwVfVs-jpNIlrZMA" />
+        <title>Blog dla kobiet | Zdrowy styl życia | Jak schudnąć | Sliminator</title>
+        <meta name="Description" content="Blog dla kobiet, które chcą prowadzić zdrowy i szczęśliwy styl życia. Skuteczne odchudzanie - jak schudnąć, perfekcyjna sylwetka, prawidłowa dieta, Sliminator.">
+        <link rel="stylesheet" href="LP_files/bootstrap.css">
+        <link rel="stylesheet" href="LP_files/style.css">
+        <link href="../../../https@fonts.googleapis.com/css@family=Montserrat_3A400&display=swap&subset=latin-ext" rel="stylesheet">
+        <link href="LP_files/css.css" rel="stylesheet">
+        <script>
+            function getDateStr(){
+                var Today = new Date()
+                var WeekDay = Today.getDay()
+                var Month = Today.getMonth() + 1
+                var Day = Today.getDate()
+                var Year = Today.getFullYear()
+                
+                if(Year <= 99) Year += 1900
+                if(Month < 10) Month = "0" + Month
+                if(Day < 10) Day = "0" + Day
+                
+                return Day + "-" + Month + "-" + Year
+            } 
+            
+        </script>
+        <style>
+            *{max-width:100%;}
+            .row{margin:0 auto;}
+            p, h2, h3, h4, h5, h6{text-align:justify;}
+            .opinion div {margin-bottom: 30px;text-align:justify;}
+            .col-sm-2, .col-sm-10{float:left;}
+            figure a img{width:50px !important;}
+            header h1{
+                font-size:66px;
+                text-align:center;
+                font-family: 'Montserrat', sans-serif;
+                
+            }
+            .action-bar{
+                line-height: 100%;
+            }
+            .container > p {
+                font-size:16px;
+                float: right;
+            }
+            .btn.early-sell {
+                display: none;
+            }
+            .info_blog.on-mobile {
+                display: none;
+            }
+            span.main-cta {
+                font-size: 44px;
+            }
+            
+            
+            @media all and (max-width:767px){
+                header h1{font-size:30px;}
+                .pic_after_before {
+                    display: -ms-flexbox;
+                    display: flex;
+                    -ms-flex-direction: row
+                    flex-direction: row;
+                }
+                .pic_after_before .col-sm-12 {
+                    -ms-flex: 0 0 50%;
+                    flex: 0 0 50%;
+                }
+                .btn.early-sell {
+                width: 60%;
+                height: 8vw;
+                position: relative;
+                left: 50%;
+                transform: translateX(-50%);
+                display: -ms-flexbox;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-decoration: none;
+                font-size: 4vw;
+                margin-bottom: 20px;
+                color: #ffffff;
+            }
+             .btn.early-sell.long {
+                 font-size: 3vw;
+                 height: 10vw;
+                 margin-top: 10px;
+                 
+             }
+             .row.comments {
+                 margin-top: 15px;
+             }
+            aside.col-sm-8 {
+                -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+                 max-width: 100%;
+            }
+            .info_blog.on-mobile {
+                display: block;
+            }
+            .info_blog.on-desktop {
+                display: none;
+            }
+            span.main-cta {
+                font-size: 24px;
+            }
+                
+            }
+            @media all and (max-width:576px) {
+
+                header {
+                    position: relative;
+                }
+                .container > p {
+                    position: absolute;
+                    float: none;
+                    top: 0;
+                    right: 5px;
+                }
+                .logo {
+                    text-align: center;
+                }
+                .logo img {
+                    margin: 20px auto;
+                    width: 30%;
+                    height: 30%;
+                }
+
+
+            }
+        </style>
+        <script>var __vl = {};
+    __vl['pid'] = "2d5d9d2";
+    __vl['rid'] = "d0ba72";
+    __vl['vdui'] = "1582470699167.2448383030.9e2ed32b7b";
+    __vl['uua'] = "145.239.92.54";
+    __vl['trur'] = "";
+    __vl['wpd'] = {"ua":"Mozilla\/4.0 (compatible; MSIE 6.0; Windows NT 5.1)","url":"../../../moje-odchudzanie.com/blog/nowa-skuteczna-metoda/default.htm","d":"moje-odchudzanie.com","csgi":355,"ip":"195.88.72.182","m":"pl","p":"sl","pv":"Sliminator","v":"1582470699167.2448383030.9e2ed32b7b","sid":"bu95dffqvlmdo6vi0r36vfvp66","utm_campaign":"pl_desk","utm_term":"5508173","utm_source":"mgid","utm_content":"4019462","utm_medium":"banner"};
+    
+        window.__domReady888__=function(e){function a(){b||(b=!0,e())}var b=!1;
+        if(document.addEventListener)document.addEventListener("DOMContentLoaded",a,!1);
+        else if(document.attachEvent){try{var f=null!=window.frameElement}catch(g){}
+        if(document.documentElement.doScroll&&!f){var d=function(){
+        if(!b)try{document.documentElement.doScroll("left"),a()}catch(c){setTimeout(d,10)}};d()}
+        document.attachEvent("onreadystatechange",function(){"complete"===document.readyState&&a()})}
+        if(window.addEventListener)window.addEventListener("load",a,!1);
+        else if(window.attachEvent)window.attachEvent("onload",a);
+        else{var c=window.onload;window.onload=function(){c&&c();a()}}};
+        
+        window.__domReadyList888__=[];window.__onDomReady888__=function(b){
+        function c(){for(var a=0;a<window.__domReadyList888__.length;a++)window.__domReadyList888__[a]()}
+        window.__domReadyList888__.length||window.__domReady888__(c);window.__domReadyList888__.push(b)};
+        
+        var ajax88 = {};
+            ajax88.x = function () {
+                if (typeof XMLHttpRequest !== 'undefined') {
+                    return new XMLHttpRequest();
+                }
+                var versions = [
+                    'MSXML2.XmlHttp.6.0',
+                    'MSXML2.XmlHttp.5.0',
+                    'MSXML2.XmlHttp.4.0',
+                    'MSXML2.XmlHttp.3.0',
+                    'MSXML2.XmlHttp.2.0',
+                    'Microsoft.XmlHttp'
+                ];
+
+                var xhr;
+                for (var i = 0; i < versions.length; i++) {
+                    try {
+                        xhr = new ActiveXObject(versions[i]);
+                        break;
+                    } catch (e) {
+                    }
+                }
+                return xhr;
+            };
+
+            ajax88.send = function (url, callback, method, data, async, type) {
+                if (async === undefined) {
+                    async = true;
+                }
+                var x = ajax88.x();
+                x.open(method, url, async);
+                x.onreadystatechange = function () {
+                    if (x.readyState == 4) {
+                        callback(x.responseText)
+                    }
+                };
+                x.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+                x.setRequestHeader('V-Request-Type', type);
+                x.withCredentials = true;
+                if (method == 'POST') {
+                    x.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                }
+                x.send(data)
+            };
+
+            ajax88.get = function (url, data, callback, type, async) {
+                var callback = callback || function(){};
+                var query = [];
+                for (var key in data) {
+                    query.push(encodeURIComponent(key) + '=' + encodeURIComponent(data[key]));
+                }
+                ajax88.send(url + (query.length ? '?' + query.join('&') : ''), callback, 'GET', null, async, type)
+            };
+
+            ajax88.post = function (url, data, callback, type, async) {
+                var callback = callback || function(){};
+                var query = [];
+                for (var key in data) {
+                    query.push(encodeURIComponent(key) + '=' + encodeURIComponent(data[key]));
+                }
+                ajax88.send(url, callback, 'POST', query.join('&'), async, type)
+            };
+        __serialize88 = function(obj) {
+                var str = [];
+                for(var p in obj)
+                  if (obj.hasOwnProperty(p)) {
+                    str.push(encodeURIComponent(p) + "=" + encodeURIComponent(obj[p]));
+                  }
+                return str.join("&");
+              }
+        function __sendColdlead(p, cb){
+            ajax88.post('../../__vae', {p:p, u:document.location.href}, function(res){ cb && cb(res); }, 'cld', true);
+        }
+    
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','../../../https@www.google-analytics.com/analytics.js','ga');
+            
+        function __ga_gcdl(){
+            if (typeof(window['ga']) !== 'undefined') {
+                var firstTracker = ga.getAll()[0];
+                if (firstTracker) { return firstTracker.get('linkerParam'); }
+            }
+        }
+        
+        function __ga_check(cb) {
+          if (typeof ga === 'function') {
+            setTimeout(function(){
+                cb && cb()
+            }, 2000)
+          } else {
+            setTimeout(__ga_check,500);
+          }
+        }
+    ga('create', 'UA-96456027-1', 'auto', {'allowLinker': true});
+    ga('require', 'linker');
+        ga('linker:autoLink', ['moje-odchudzanie.com','nieziemskie-rabaty.com','nieziemskie-rabaty.com'] );
+    ga('set', 'campaignName', 'pl_desk');
+    ga('set', 'campaignSource', 'mgid');
+    ga('set', 'campaignMedium', 'banner');
+    ga('set', 'campaignKeyword', '5508173');
+    ga('set', 'campaignContent', '4019462');
+    ga('send', 'pageview');
+    ga('send','event','Page Load','Load','Article');
+    
+            var connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection || false;
+
+            d = {
+                js_id: 'd0ba72',
+                type: 'nv',
+                online: navigator.onLine,
+                platform: navigator.platform,
+                concurrency: navigator.hardwareConcurrency,
+                lang: navigator.language,
+                max_t_points: navigator.maxTouchPoints,
+                cookie: navigator.cookieEnabled,
+                dnt: navigator.doNotTrack,
+                conn_type: connection && connection.type,
+                tz: (new Date()).getTimezoneOffset(),
+                w_height: innerHeight, 
+                w_width: innerWidth
+            }
+            
+                
+            if('screen' in window && window.screen){
+                d.awh = window.screen.height
+                d.aww = window.screen.width
+
+                if(window.screen.orientation){
+                    d.o = window.screen.orientation.type
+                    d.a = window.screen.orientation.angle
+                }
+            }
+
+            if(navigator && navigator.getBattery){
+                navigator.getBattery().then(function(b){
+                    if(b){
+                        d.b_bch= b.charging
+                        d.b_cht=b.chargingTime
+                        d.b_dt= b.dischargingTime
+                        d.b_l= b.level
+                    }
+                    
+                    
+        ajax88.post('../../__vae', d, null, 'ev');
+    
+                })
+            }else{
+                
+        ajax88.post('../../__vae', d, null, 'ev');
+    
+            }
+                        
+        
+        window.__onDomReady888__(function(){
+            (function(){
+                
+            var ps = {
+                '12': null,
+                '25': null,
+                '37': null,
+                '50': null,
+                '62': null,
+                '75': null,
+                '87': null,
+                '100': null,
+            };
+            window.onscroll = function(){
+                var current = window.innerHeight+window.scrollY
+		var max = document.body.offsetHeight
+		var percent = Math.round((current/max)*100)
+                
+                for(var i in ps){
+                    if(!ps[i] && parseInt(i) < percent){
+                        var d = {
+                            js_id: 'd0ba72',
+                            type: 'sc',
+                            value: i,
+                            st: sti
+                        }
+                        
+        ajax88.post('../../__vae', d, null, 'ev');
+    
+                        ps[i] = true
+                    }
+                }
+            }
+        
+                
+            var t = [5,15,30,60,90,120,180,240,480];
+            
+            sti = 0
+            setInterval(function(){
+                sti++
+                if(t.indexOf(sti) >= 0){
+                    var d = {
+                        js_id: 'd0ba72',
+                        type: 'st',
+                        value: sti
+                    }
+                    
+        ajax88.post('../../__vae', d, null, 'ev');
+    
+                }
+            }, 1000);
+        
+            })();
+            
+        });
+        
+        window.__onDomReady888__(function(){
+            
+            (function(){
+                setInterval(function(){
+                    
+        ajax88.get('../../__vae', null, null, 'poll');
+    
+                }, 1000 * 60 * 3);
+            })();
+            
+        });
+        
+            window["__ga_check"] && __ga_check(function(){
+                var __d = {
+                    ga: window["__ga_gcdl"] && __ga_gcdl()
+                };
+                if(__d.ga){
+                    
+        ajax88.get('../../__vae', __d, null, 'galnk');
+    
+                }
+            })
+        </script><style>
+            .h58a4fjd{ display:none; }
+            </style>
+        <script>
+            var dimensionValue = 'Unique visit';
+            ga('set', 'dimension2', dimensionValue);
+            ga('send','event','Unique visit');
+        </script>
+    </head>
+
+<body class="blog_main_site default">
+<header>
+  <div class="container">
+	<p style="float: right; font-size:16px;">PROMOCJA</p>    <div class="row  logo_main">
+      <div class="col-md-12 col-xs-12 col-sm-12">
+        <div class="col-sm-2 logo"> <img src="LP_files/ania.png" alt="Ania"></div>
+        <div class="col-sm-10">
+          <h1>Ania bloguje, czyli kobieta po pracy</h1>
+        </div>
+      </div>
+    </div>
+    <div class="row main_menu">
+      <div class="col-md-12 col-xs-12 col-sm-12">
+        <nav>
+          <ul>
+            <li><a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">O mnie</a></li>
+            <li><a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Uroda</a></li>
+            <li><a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Psychologia</a></li>
+            <li><a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Plotki</a></li>
+            <li><a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Lifestyle</a></li>
+            <li><a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Moda</a></li>
+            <li><a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Kuchnia</a></li>
+            <li><a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Zdrowie</a></li>
+            <li><a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Miejsca</a></li>
+            <li><a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Eko</a></li>
+            <li><a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Humor</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+<main id="content">
+  <div class="container">
+    <div class="row title">
+      <div class="col-md-12 col-xs-12 col-sm-12">
+        <h2>Chcesz poznać metodę, dzięki której <u>schudłam 36 kg i odmieniłam swoje życie?</u></h2>
+      </div>
+    </div>
+    <article class="row">
+      <section class="col-md-8 col-xs-12 col-sm-12">
+        <h3> <span style="font-size: 20px; color: #000; font-weight: 500"> Zrzucisz w 30 dni nawet 12 kg i ujędrnisz całe ciało! Będziesz sexy jak nigdy wcześniej! </span> <br>
+         <em>SCHUDŁAM 36 kg, mimo że dietetycy nie dawali mi już żadnych szans. Przez otyłość i cellulit czułam się, jakbym żyła w klatce. Odkryłam tę FENOMENALNĄ METODĘ i w końcu zaczęłam ŻYĆ – teraz czas na Ciebie! Piszę o niej, aby Ci POMÓC, bo sama przez to przechodziłam i dobrze wiem, jak się czujesz.</em></h3>
+        <div class="info_blog on-mobile">
+          <div class="picture"> <img src="LP_files/blog_pic.jpg" alt="Ania z rodziną">
+            <div class="dec_info_blog">Cześć! Mam na imię Ania i jestem żoną, matką, panią domu i stuprocentową kobietą. Po pracy prowadzę blog, na którym opisuję codzienne sprawy i ciekawostki, które zmieniają życie na lepsze. Lubię spędzać czas z rodziną, podróżować i odkrywać wspólnie nowe miejsca. W samotności zaś najchętniej sięgam po książkę. Moje motto: <em>Przyszłość należy do tych, którzy wierzą w swoje marzenia!</em> Ja w moje wierzę, a Ty? :)</div>
+          </div>
+        </div>
+        <section>
+        <section>
+          <p>Masz już <strong>serdecznie dość ćwiczeń i diet, które nie działają?</strong> Ile można się głodzić? Ile razy można się męczyć, a potem i tak mieć efekt jo-jo? Ja się tak katowałam wiele lat, a do tego wydałam mnóstwo pieniędzy na dietetyków i treningi – wszystko na marne, żadnych rezultatów… Aż pewnego dnia natrafiłam na coś, co <strong>absolutnie odmieniło moje życie!</strong> Poczułam, że muszę się tym podzielić z każdym, kto zmaga się z problemem nadwagi.</p>
+          <p>Jeśli masz idealne ciało bez cienia cellulitu, to nie potrzebujesz mojej pomocy – tak jak ja teraz, doceniaj to, co masz! Ale jeżeli znasz ten ból i doskonale wiesz, o czym mówię, to czytaj dalej. Dostaniesz ode mnie receptę na szczęście, czyli <strong>przepis na szczupłą sylwetkę i jędrne ciało!</strong> To formuła odchudzająca, której spektakularne efekty wprawiły w osłupienie nawet mojego lekarza! I wiesz co? Sam zaczął stosować tę metodę! <strong>Bo ona działa absolutnie na każdego!</strong></p>
+          <p style="color:#ce0e0e;font-weight:bold;">Wyobraź sobie, jak nagle wskakujesz w ubrania mniejsze o kilka rozmiarów, które podkreślają Twoją doskonałą figurę. Wyobraź sobie, jak znajomi i rodzina są w szoku, widząc lepszą wersję Ciebie. Brzmi jak marzenie? Owszem, ale to marzenie, które ŁATWO MOŻE SIĘ SPEŁNIĆ!</p>
+          <div class="row pic_after_before">
+            <div class="col-md-6 col-xs-12 col-sm-12 text-right"> <img src="LP_files/pic_1.jpg" alt="Zdjęcie przed użyciem Sliminatora">
+              <div class="info_weight"><strong>ZDJĘCIE PRZED, 12.06.2018 r.: <span> 90 KG</span></strong> </div>
+            </div>
+            <div class="col-md-6 col-xs-12 col-sm-12 text-left"> <img src="LP_files/pic_2.jpg" alt="Zdjęcie po użyciu Sliminatora">
+              <div class="info_weight"><strong>ZDJĘCIE PO, 14.09.2018 r, <span>54 KG</span> </strong> </div>
+            </div>
+          </div><br />
+          <p><strong>Sliminator odchudzi każdego</strong> – ja jestem tego żywym przykładem! Nazywam się Anna Sroczyńska, mieszkam pod Warszawą i pracuję w korporacji. Nie jestem dietetykiem, nie latam na siłownię i nie znam się na tym wszystkim jak Chodakowska czy Lewandowska. Jestem zwykłą kobietą, która miała sporą nadwagę i za mało pieniędzy na modne kuracje. A teraz wyglądam jak modelka – ważę 54 kg przy wzroście 166 cm. <strong>Jem co chcę i nie ćwiczę, a mam perfekcyjną figurę bez cellulitu!</strong></p>
+          <p>Nie mogłam schudnąć przez powiększoną tarczycę i słabe spalanie tłuszczów spowodowane różnymi lekami. Usłyszałam wyrok od lekarzy, że póki biorę tabletki, nigdy nie schudnę. A musiałam je brać, by <strong>być zdrowa – dla siebie, dzieci i męża!</strong> Nie chciałam wydawać fortuny z rodzinnego budżetu na operacje odsysania tłuszczu, tym bardziej że po kilku miesiącach znów mogłabym przytyć. Czułam w środku, że musi być jakieś inne, <strong>bezpieczniejsze rozwiązanie. </strong></p>
+          <p>Wypróbowałam pełno produktów, ale nie przyniosły żadnych rezultatów, bo ani jeden nie miał takiego składu jak Sliminator. O Sliminatorze powiedziała mi znajoma ze Szwecji, bo u nich to <strong>hit już od wielu lat.</strong> Na drugi dzień jeszcze niczego nie czułam, ale już po tygodniu byłam lżejsza o 8 kg! Sliminator stał się moim <strong>remedium na zwisający tłuszcz na brzuchu, wystające boczki, grube nogi i cellulit.</strong> Przywrócił mi <strong>poczucie atrakcyjności i seksapil</strong>, a tego potrzebuje przecież każdy z nas!</p>
+          <div class="pic_after_before row">
+            <div class="col-md-6 col-xs-12 col-sm-12"> <img src="LP_files/pic_3.jpg" alt="Przed schudnięciem">
+              <div class="info_weight">Zdjęcie przed kuracją Sliminatorem</div>
+            </div>
+            <div class="col-md-6 col-xs-12 col-sm-12"> <img src="LP_files/pic_4.jpg" alt="Po schudnięciu">
+              <div class="info_weight">Zdjęcie po 3-miesięcznej kuracji Sliminatorem </div>
+            </div>
+          </div><br />
+          <p>Po kuracji pewna moja znajoma poprosiła mnie o polecenie lekarza, który robił mi liposukcję. Byłam w szoku, bo przecież nie miałam żadnego odsysania tłuszczu! Ja tylko dwa razy dziennie brałam kapsułkę ze skoncentrowanymi naturalnymi <strong>składnikami, które spalają tłuszcz.</strong> Do tego piłam dużo wody i to wszystko! Tyle wystarczyło, by całkowicie odmienić swoje życie. Bo atrakcyjniejszy wygląd, to również <strong>atrakcyjniejsze życie każdego dnia.</strong></p>
+          <p>Wyobraź sobie, jak idziesz po plaży i widzisz, że <strong>przyciągasz wzrok dosłownie każdego.</strong> Jak na imprezie rodzinnej wszyscy prawią Ci komplementy. Jak Twój partner czy Twoja partnerka <strong>nie może się od Ciebie odkleić.</strong> To wspaniałe uczucie! Wiem, bo tak teraz mam! A jeśli też chcesz to poczuć, to zajrzyj<a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D" class="link_web_site"> <strong>TUTAJ</strong> </a> Właśnie na tej stronie udało mi się kupić Sliminator w możliwie najniższej cenie. :)</p>
+          </section>
+          <section>
+          <h4> <span style="text-align: center; font-size: 18px; display: block; font-weight: 700; margin-bottom: 10px">Dlaczego ta kuracja jest tak SKUTECZNA? Co ją odróżnia od kuracji, które tylko marnują Twój czas i pieniądze?</span>
+                <span style="text-align: center; font-size: 24px; color: #ce0e0e; font-weight: 700">SLIMINATOR zawiera składniki aktywne, których nie znajdziesz w ŻADNYM INNYM PRODUKCIE dostępnym w Polsce. Ich połączone działanie SPALA TŁUSZCZ jak podczas najcięższego treningu. </span></h4>
+          <p>Wiem, bo schudłam aż 36 kg bez żadnej diety i morderczych ćwiczeń.<span class="yelow_bg"> Zaczynałam z wagą 90 kg, a po trzech miesiącach ważyłam równo 54 kg! </span>Jeśli Ty też pragniesz idealnej sylwetki i zastanawiasz się, czy Sliminator zadziała również na Ciebie, to zaraz coś Ci zdradzę.</p>
+          <section>
+          <h5>Dlaczego JA SCHUDŁAM i TY TEŻ dzięki tej metodzie SCHUDNIESZ?</h5>
+          <p>Schudniesz, bo każdy <strong>do schudnięcia potrzebuje tego samego.</strong> Jeśli metoda odchudzająca spełnia <strong>4 główne warunki, to zadziała na KAŻDY ORGANIZM.</strong> Sliminator je spełnia, dlatego pomógł mi i pomoże Tobie, a także każdemu, kto przejdzie tę kurację. A to 4 warunki, które spełnia Sliminator, zapewniając Ci szczupłe, jędrne i seksowne ciało:</p>
+          <p>
+          <ul class="number">
+            <li>podkręca metabolizm aż o 98% i usuwa toksyny z jelit – to właśnie toksyny blokują procesy odchudzające i sprawiają, że ogarnia Cię zmęczenie i zły nastrój</li>
+            <li>przestawiają organizm w tryb zdrowego – w 100% bezpiecznego naturalnego odchudzania</li>
+            <li>rozbijają grudki tłuszczu i cellulitu w miejscach newralgicznych – na brzuchu, udach, pośladkach – zapewniają utratę min. 3-5 kg tygodniowo</li>
+            <li>zmuszają mięśnie do intensywnej pracy jak podczas treningu, nawet kiedy śpisz – to największa zaleta Sliminatora, bo chudniesz także podczas snu!</li>
+          </ul></p>
+          <p>To 4 zasady odchudzania, które <strong>gwarantują schudnięcie i pozbycie się cellulitu.</strong> Nie warto zaczynać metody, która nie spełnia wszystkich 4 warunków, bo stracimy tylko czas, a nie zbędne kilogramy. Tylko jedna rzecz powstrzymywała mnie przed wypróbowaniem tabletek Sliminator – po prostu nie wierzyłam, że ta metoda jest dla mnie. </p>
+          <p>Próbowałam wcześniej <strong>wielu metod i najróżniejszych diet np. kapuścianą, dukana, warzywno-owocową.</strong> Nie raz udało mi się schudnąć, ale zawsze kilogramy wracały ze zdwojoną siłą. Bałam się kolejnego efektu jo-jo, kolejnego rozczarowania i narażania swojego zdrowia zarówno fizycznego, jak i psychicznego. Do tego miałam bardzo wysoki poziom cholesterolu…</p>
+          <p>Ale koleżanka, która poleciła mi Sliminator, rozwiała moje wątpliwości, tłumacząc skład i 4 warunki odchudzania, które ten niesamowity środek spełnia. Dzięki niej wiem, że <strong>skuteczna metoda odchudzająca musi spełniać te 4 warunki, a wtedy zadziała na każdego, niezależnie od jego wagi, wieku, problemów zdrowotnych.</strong></p>
+          <p>Jeśli nie chudniesz, to Twoja metoda po prostu nie spełnia 4 zasad. A żeby je spełniać musi <strong>dostarczać organizmowi wartościowych składników aktywnych, które pobudzają go do spalania tłuszczów.</strong> To brzmi prosto, ale w rzeczywistości wymaga ogromnej wiedzy na temat organizmu ludzkiego i procesu spalania tkanki tłuszczowej.</p>
+          </section>
+          </section>
+          <section>
+          <h4 style="text-align:center; font-weight: 700; font-size: 21px">Nie musisz płacić za zabiegi liposukcji czy dietetyków! Sliminator działa jak <span style="color:red;">NATURALNA LIPOSUKCJA</span>, którą przeprowadza Twój organizm.</h4>
+          <span style="text-align:center; font-size: 24px; display: block; margin: 10px 0; color: #ce0e0e; font-weight: 700">Jak to możliwe?</span> 
+          <p style="text-align:center;"><strong>Dziś ważę niemal dwa razy mniej, schudłam aż 36 kg!<br />Nie poznała mnie nawet moja rodzona matka!</strong></p>
+          <p>Sliminator to <strong>najskuteczniejsza i najszybsza metoda odchudzania</strong>, którą rekomendują najbardziej znani lekarze w USA! Gary Walbert, Andrew Collier, Elizabeth Hopkins, Joe Snowman – mówią Ci coś te nazwiska? To geniusze odchudzania! A więc i ich <strong>technika musi być GENIALNA.</strong> Sliminator jest oparty <strong>na najnowszych odkryciach XXI wieku w dziedzinie odchudzania.</strong> To połączenie dwóch najpotężniejszych sił: <strong>NAUKI i NATURY</strong> – z pewnością wiesz, że nie ma niczego mocniejszego.</p>
+          <p>To, co Ci dziś przekazuję, przetestowałam osobiście i mogę dać Ci moje słowo, że <strong>wraz z kuracją Sliminatorem rozpoczniesz nowy, znacznie lepszy etap w swoim życiu.</strong> Domyślam się, że pracujesz, a może też masz dzieci, i tak jak mi brakuje Ci czasu na siłownię i codzienne gotowanie oddzielnych posiłków. Ze Sliminatorem nie musisz się tym przejmować. Daję Ci <strong>świetną metodę odchudzającą, która może sprawić cuda z Twoim ciałem i życiem.</strong> Mam nadzieję, że nie zmarnujesz tej wiedzy...</p>
+          <section>
+          <h4 style="text-align:center; font-weight: 700; font-size: 21px">SLIMINATOR to rozwiązanie wszystkich Twoich problemów z sylwetką, bo nareszcie</h4>
+          <span style="text-align:center; font-size: 24px; display: block; margin: 10px 0; color: #ce0e0e; font-weight: 700">SCHUDNIESZ i POZBĘDZIESZ SIĘ CELLULITU!</span>
+          <p>Wiele osób początkowo nie może uwierzyć, że to takie proste. Ale Sliminator został już sprawdzony przez tysiące konsumentów, którzy <strong>raz na zawsze pozbyli się nadwagi.</strong> Zanim sama rozpoczęłam kurację, skontaktowałam się nimi, by poznać ich opinię.</p>
+          <p>Ty też musisz zobaczyć, <strong>co piszą ci, którzy wypróbowali kapsułki:</strong></p>
+          </section>
+          </section>
+          <section class="row opinion">
+            <div class="col-md-6 col-xs-12 col-sm-12"> <img src="LP_files/after_1.jpg" alt="Zdjęcie po kuracji oschudzającej"></div>
+            <div class="col-md-6 col-xs-12 col-sm-12">“Spójrzcie na mnie po miesięcznej kuracji Sliminatorem! 14 kilo mniej w 5 tygodni! Coś niesamowitego! Czuję się piękna i atrakcyjna :) Nie wstydzę się już chodzić na basen, bo cellulit znikł wraz z kilogramami tłuszczu. Teraz chętniej wychodzę na miasto, spotykam się ze znajomymi i umawiam na randki, bo mam ogrooomne powodzenie! Lepsze ciało to lepsze życie, bez dwóch zdań! :D” 
+              <p style="font-weight: 700">Monika z Jeleniej Góry, 29 lat</p>
+            </div>
+            <div class="col-md-6  col-xs-12 col-sm-12"> <img src="LP_files/after_2.jpg" alt="Zdjęcie po kuracji oschudzającej"> </div>
+            <div class="col-md-6  col-xs-12 col-sm-12">“Z każdym dniem brania Sliminatora kilogramy gdzieś się traciły. Z obrzydliwego brzucha mało co już zostało, a niedługo będzie idealny, bo wciąż biorę tabletki. Zrzuciłem prawie dwadzieścia kilogramów w półtora miesiąca. Znajomi zszokowani, rodzina podziwia, a dla żony znowu jestem przystojniakiem sprzed lat, w którym się zakochała. Mam sto razy więcej energii, czuję się męsko i pewnie siebie, co widać na każdym kroku. Wygląd wpływa na całe nasze życie, a moje dzięki temu produktowi poprawiło się o 180 stopni. Polecam ze szczerego serca!”
+                <p style="font-weight: 700">Dawid z Nowego Sącza, 38 lat</p>
+            </div>
+            <div class="col-md-6  col-xs-12 col-sm-12"> <img src="LP_files/after_3.jpg" alt="Zdjęcie po kuracji oschudzającej"></div>
+            <div class="col-md-6  col-xs-12 col-sm-12">“Początkowo byłam sceptyczna, bo takich środków na rynku jest pełno, a sama próbowałam schudnąć praktycznie od zawsze. Jestem farmakologiem, więc nie miałam problemu ze sprawdzeniem produktu. Analiza bardzo pozytywnie mnie zaskoczyła i postanowiłam spróbować kuracji Sliminatorem na sobie. 20 parę kg mniej i koniec problemów z cellulitem. Takich efektów się nie spodziewałam! Czuję się jak piórko i nagle wszystko chce mi się robić! Ciągle się uśmiecham, znajomi mówią, że jestem chodzącą pozytywną energią! Pokochałam swoje życie dopiero w wieku 25 lat!”
+                <p style="font-weight: 700">Gabriela z Warszawy, 25 lat</p>
+            </div>
+            <div class="col-md-6 col-xs-12 col-sm-12"> <img src="LP_files/after_4.jpg" alt="Zdjęcie po kuracji oschudzającej"> </div>
+            <div class="col-md-6 col-xs-12 col-sm-12">“Zawsze wyglądałam jak pulchna świnka i miałam przez to straszne kompleksy. Śmiano się ze mnie w szkole, krzywo spoglądano na ulicy. Wiele razy udało mi się schudnąć, ale zaraz potem wracałam do dawnej wagi, wiadomo - efekt jo-jo… Dopiero ze Sliminatorem było inaczej! Schudłam 16 kg w miesiąc i moja waga utrzymuje się już pół roku. Jestem zachwycona! Ten produkt może zmienić życie milionom kobiet!”
+                <p style="font-weight: 700">Edyta z Żywca, 33 lata</p>
+            </div>
+            <div class="col-md-6 col-xs-12 col-sm-12"> <img src="LP_files/after_5.jpg" alt="Zdjęcie po kuracji oschudzającej"> </div>
+            <div class="col-md-6 col-xs-12 col-sm-12">“Lubię tłuste jedzenie i piwo, nie wyobrażam sobie życia bez tych przyjemności! Siedzący tryb pracy i taka dieta zrobiła swoje - miałem ponad 20 kg nadwagi. Żona wciskała mi jakieś dietetyczne potrawy, na widok których aż słabo mi się robiło. Na szczęście odkryłem Sliminator i szybko zacząłem kurację. Efekty pojawiły się już po kilku dniach! Sami zobaczcie na zdjęciu! 25 kg w 2 miesiące! I wcale nie odstawiłem ani piwa, ani dobrego jedzenia! To najlepszy produkt w całym moim życiu!”
+                <p style="font-weight: 700">Artur z Wrocławia, 55 lat</p>
+            </div>
+            <div class="col-md-6 col-xs-12 col-sm-12"> <img src="LP_files/after_6.jpg" alt="Zdjęcie po kuracji oschudzającej"> </div>
+            <div class="col-md-6 col-xs-12 col-sm-12">“Koleżanka z pracy nagle zaczęła chudnąć w oczach. Koniecznie chciałam wiedzieć, jaką dietę stosuje, co takiego ćwiczy, że nagle nosi ubrania kilka rozmiarów mniejsze. Powiedziała mi o kuracji Sliminatorem i tego samego dnia zamówiłam zestaw dla siebie. Minęło dokładnie 39 dni, a ja ważę 12 kg mniej i kupuje ubrania w rozmiarze 38! Te kapsułki sprawiły, że mimo wieku znów czuję się atrakcyjna i seksowna jak 20-latka! Zauważyłam nawet, że moje włosy i paznokcie są silniejsze! Nie wiem, co takiego jest w tych tabletkach, że czynią taaakie cuuuda!”
+                <p style="font-weight: 700">Barbara z Rybnika, 46 lat</p>
+            </div>
+            <div class="col-md-6 col-xs-12 col-sm-12"> <img src="LP_files/after_7.jpg" alt="Zdjęcie po kuracji oschudzającej"> </div>
+            <div class="col-md-6 col-xs-12 col-sm-12">“Nareszcie znalazłam coś skutecznego, a przy tym tańszego niż większość produktów, które nie przynoszą żadnych rezultatów. Dobrze, że się nie poddałam i trafiłam w końcu na Sliminator! Ostatnie lata były dla mnie istnym koszmarem. Wstydziłam się swojego wyglądu, całkiem wycofałam się z życia towarzyskiego. Dieta, siłownia czy bieganie w moim przypadku w ogóle nie pomagały, bo brałam tabletki hormonalne. Rodzina i przyjaciele mieli mnie za leniwego grubasa, a ja naprawdę nie byłam w stanie nic zrobić ze swoim ciałem. Sliminator wszystko zmienił! Jego działanie jest niesamowite, schudłam 18 kg w 2 miesiące! Pokochałam siebie całą - od stóp do głów! Kobietki, nie zastanawiajcie się, tylko kupujcie! Tak mało wystarczy, by osiągnąć perfekcyjną figurę!”
+                <p style="font-weight: 700">Karolina z Wałczu, 55 lat</p>
+            </div>
+          </section>
+          <section>
+          <h4 style="text-align:center; font-size: 24px; display: block; margin: 10px 0; color: #ce0e0e; font-weight: 700">To odchudzanie na miarę XXI wieku! </h4>
+          <span style="text-align:center; font-size: 24px; display: block; margin: 10px 0; color: #ce0e0e; font-weight: 700">Zapomnij o przestarzałych metodach!</span>
+          <p>Przez trzy miesiące stosowania kuracji nie pominęłam żadnej tabletki. Tutaj liczy się systematyczność i konsekwencja, by dostarczane do organizmu <strong>składniki, które spalają tłuszcz,</strong> utrzymywały się w nim cały czas na prawidłowym poziomie. Ale skoro mi się udało, to Tobie również! </p>
+          <p><strong>Sliminator to jedno z najlepszych odkryć medycyny XXI wieku! To antidotum na zwisający tłuszcz, uporczywe boczki, ogólną nadwagę i odpychający cellulit.</strong></p>
+          </section>
+          <section>
+          <span style="text-align:center; font-size: 24px; display: block; margin: 10px 0; color: #ce0e0e; font-weight: 700">Ale to jeszcze nie wszystko! Mam dla Ciebie cenne rady, które PRZYSPIESZĄ Twój proces odchudzania!</span>
+          <h4 style="text-align:center; font-size: 21px; font-weight: 700">NA KONIEC POWIEM CI O FAKTACH NA TEMAT Sliminator, KTÓRYCH NIE ZDRADZI CI NIKT INNY!</h4>
+          <p>Zależy mi, aby poszło Ci tak dobrze jak mi. Dlatego łap moje rady i połącz je ze <span class="yellow_bg">stosowaniem Sliminatora, a efekty zwalą Cię z nóg!</span> ;)</p>
+          <p>
+          <ul class="number">
+            <li>Każdego dnia zapisuj zrzucone kilogramy. W ten sposób będziesz dokładnie widzieć swoje postępy.</li>
+            <li>Nie zapominaj o wzięciu tabletki. Pamiętaj – rano przed śniadaniem i wieczorem przed kolacją. I koniecznie popij szklanką wody mineralnej.</li>
+            <li>Wypijaj minimum 1,5 l wody mineralnej dziennie – to jeszcze bardziej przyspieszy Twój metabolizm i spalanie tłuszczu.</li>
+          </ul></p>
+          <p> <strong> By <span class="yelow_bg">ułatwić Ci podjęcie decyzji daje Ci link do strony, gdzie kupisz Sliminator 53% taniej!</span></strong>Ja też tam kupowałam i zaoszczędziłam aż 160 zł! Najlepsze jest to, że <strong>producent daje 100% gwarancję efektów.</strong> Jeśli nie będziesz zadowolona (w co oczywiście wątpię), po prostu odeślesz opakowanie i dostaniesz zwrot pieniędzy. Absolutnie nic nie tracisz i nic nie ryzykujesz, a <strong>zyskać możesz bardzo dużo: NOWĄ SYLWETKĘ i tym samym NOWE ŻYCIE.</strong></p>
+          <p>W moim przypadku 36 kg mniej, to naprawdę nowa jakość życia. Nie wiem, ile chcesz schudnąć, ale wiem, że <strong>każdy zrzucony kilogram to więcej radości i pewności siebie każdego dnia.</strong> Ale po co ja Ci to mówię, Ty też zdajesz sobie z tego sprawę. A jeśli nie, to przekonaj się, że tak właśnie jest!</p>
+          <span style="text-align:center; font-size: 21px; display: block; margin: 10px 0; color: #ce0e0e; font-weight: 700">Wybierz LEPSZE ŻYCIE już teraz. Schudnij ze Sliminatorem<br />i ciesz się IDEALNĄ SYLWETKĄ i JĘDRNYM CIAŁEM!</span>
+          <div class="info_produkt">
+            <span class="main-cta "> <a id="ads" class="btn" href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">LINK DO STRONY PRODUCENTA - RABAT <span class="yellow_bg">53%</span></a></span>
+            <p class="main-cta " >Specjalna promocja do: <strong><script>document.write(getDateStr())</script></strong></p>
+          </div>
+           </section>
+        </section>
+        </section>
+      <aside class="col-md-4 col-xs-12 col-sm-8">
+        <div class="info_blog on-desktop">
+          <div class="picture"> <img src="LP_files/blog_pic.jpg" alt="Ania z rodziną">
+            <div class="dec_info_blog">Cześć! Mam na imię Ania i jestem żoną, matką, panią domu i stuprocentową kobietą. Po pracy prowadzę blog, na którym opisuję codzienne sprawy i ciekawostki, które zmieniają życie na lepsze. Lubię spędzać czas z rodziną, podróżować i odkrywać wspólnie nowe miejsca. W samotności zaś najchętniej sięgam po książkę. Moje motto: <em>Przyszłość należy do tych, którzy wierzą w swoje marzenia!</em> Ja w moje wierzę, a Ty? :)</div>
+          </div>
+        </div>
+        <div class="produkt_placement_main"><a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D" class="product_placement">
+          <h3 style="text-align:center;">Wyjątkowa oferta tylko z tym linkiem!</h3>
+          <div class="featured-widget-image"><img src="../../78dfa/v/slim/sr_pl.png" alt="Sliminator" style="width:50%;"></div>
+          </a> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D" class="btn"> Sprawdź</a></div>
+      </aside>
+    </article>
+    <section class="row comments">
+      <div class="col-md-7 col-xs-12 col-sm-12"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Komentarze</a>
+        <div class="links"> <span class="inline"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Zaloguj się</a> lub <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Zarejestruj</a> </span> </div>
+        <div class="comments-top">
+          <div class="comments-count"> Liczba komentarzy:
+            824 </div>
+          <div class="comments-add"></div>
+          <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D" class="addcomenct">Dodaj komentarz</a> </div>
+        <div class="comments-content clearfix">
+          <ul>
+
+            <!--komentarz 5-->
+            <li class="c clearfix">
+              <figure> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"> <img src="LP_files/jadwiga_b.jpg" alt="avatar"> </a> </figure>
+              <div class="comment clearfix">
+                <div class="comment-top"> <span class="name"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Jadwiga Brylska</a> · </span> <span class="job"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"></a> ·
+                  Najbardziej aktywny komentator </span> </div>
+                <div class="comment-content">
+                  <p>Pani Aniu, ja też miałam problemy z tarczycą i usłyszałam, że przez to nigdy nie schudnę. Dzięki Pani kupiłam Sliminator i 
+teraz chudnę i chudnę z dnia na dzień! Kto by pomyślał, że odchudzanie może być takie łatwe?</p>
+                </div>
+                <div class="action-bar"> <span class="reply"> <a href="#">Odpowiedz</a> · </span> <span class="like"> <a href="#">Lubię to</a> · </span> <span class="count"> <i class="like"></i> 34 · </span> <span class="obs"> <a href="#">Obserwuj post</a> · </span> <span class="date">4 godziny temu</span> </div>
+              </div>
+            </li>
+            <!--komentarz 5-->
+
+            <!--komentarz 5-->
+            <li class="c clearfix subcoment">
+              <figure> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"> <img src="LP_files/ania.png" alt="avatar"> </a> </figure>
+              <div class="comment clearfix">
+                <div class="comment-top"> <span class="name"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Anna Sroczyńska</a> · </span> <span class="job"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"></a> ·
+                  Najbardziej aktywny komentator </span> </div>
+                <div class="comment-content">
+                  <p>Pani Jadwigo, bardzo się cieszę! Lekarze często nie mówią wszystkiego, a może nawet nie wiedza, że to może byc takie proste? A mniej kilogramów to przecież korzyść dla naszego organizmu! Pochwali się Pani, ile udało sie schudnąć? :)</p>
+                </div>
+                <div class="action-bar"> <span class="reply"> <a href="#">Odpowiedz</a> · </span> <span class="like"> <a href="#">Lubię to</a> · </span> <span class="count"> <i class="like"></i> 34 · </span> <span class="obs"> <a href="#">Obserwuj post</a> · </span> <span class="date">4 godziny temu</span> </div>
+              </div>
+            </li>
+            <!--komentarz 5-->
+
+            <!--komentarz 5-->
+            <li class="c clearfix subcoment">
+              <figure> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"> <img src="LP_files/jadwiga_b.jpg" alt="avatar"> </a> </figure>
+              <div class="comment clearfix">
+                <div class="comment-top"> <span class="name"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Jadwiga Brylska</a> · </span> <span class="job"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"></a> ·
+                  Najbardziej aktywny komentator </span> </div>
+                <div class="comment-content">
+                  <p>Zrzuciłam już 12 kg, a mineły dopiero 2 tygodnie! Mąż nie może sie ode mnie odkleić haha :D</p>
+                </div>
+                <div class="action-bar"> <span class="reply"> <a href="#">Odpowiedz</a> · </span> <span class="like"> <a href="#">Lubię to</a> · </span> <span class="count"> <i class="like"></i> 34 · </span> <span class="obs"> <a href="#">Obserwuj post</a> · </span> <span class="date">4 godziny temu</span> </div>
+              </div>
+            </li>
+            <!--komentarz 5-->
+
+            <!--komentarz 2-->
+            <li class="c clearfix">
+              <figure> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"> <img src="LP_files/kasia_m.jpg" alt="avatar"> </a> </figure>
+              <div class="comment clearfix">
+                <div class="comment-top"> <span class="name"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Kasia Małek</a> · </span> <span class="job"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"></a> </span> </div>
+                <div class="comment-content">
+                  <p>Jaka cena? Jeśli działa jak mówicie to biore juz w tej chwili!!!! </p>
+                </div>
+                <div class="action-bar"> <span class="reply"> <a href="#">Odpowiedz</a> · </span> <span class="like"> <a href="#">Lubię to</a> · </span> <span class="count"> <i class="like"></i> 24 · </span> <span class="obs"> <a href="#">Obserwuj post</a> · </span> <span class="date">2 godziny temu</span> </div>
+              </div>
+            </li>
+            <!--komentarz 3-->
+
+            <!--komentarz 5-->
+            <li class="c clearfix subcoment">
+              <figure> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"> <img src="LP_files/aleksandra_m.jpg" alt="avatar"> </a> </figure>
+              <div class="comment clearfix">
+                <div class="comment-top"> <span class="name"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Aleksandra Maj</a> · </span> <span class="job"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"></a> ·
+                  Najbardziej aktywny komentator </span> </div>
+                <div class="comment-content">
+                  <p>ja załapałam się na promocję, wejdź w link w artykule, może jeszcze będzie aktualna</p>
+                </div>
+                <div class="action-bar"> <span class="reply"> <a href="#">Odpowiedz</a> · </span> <span class="like"> <a href="#">Lubię to</a> · </span> <span class="count"> <i class="like"></i> 34 · </span> <span class="obs"> <a href="#">Obserwuj post</a> · </span> <span class="date">4 godziny temu</span> </div>
+              </div>
+            </li>
+            <!--komentarz 5-->
+
+            <!--komentarz 4-->
+
+            <li class="c clearfix">
+              <figure> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"> <img src="LP_files/adrian_p.jpg" alt="avatar"> </a> </figure>
+              <div class="comment clearfix">
+                <div class="comment-top"> <span class="name"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Adrian Przybyszewski</a> · </span> <span class="job"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"></a> ·
+                  Najbardziej aktywny komentator </span> </div>
+                <div class="comment-content">
+                  <p>To tlyko dla kobiet czy faceci też z tym schudną?</p>
+                </div>
+                <div class="action-bar"> <span class="reply"> <a href="#">Odpowiedz</a> · </span> <span class="like"> <a href="#">Lubię to</a> · </span> <span class="count"> <i class="like"></i> 13 · </span> <span class="obs"> <a href="#">Obserwuj post</a> · </span> <span class="date">4 godziny temu</span> </div>
+              </div>
+            </li>
+            <!--komentarz 4-->
+
+            <!--komentarz 5-->
+            <li class="c clearfix subcoment">
+              <figure> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"> <img src="LP_files/ania.png" alt="avatar"> </a> </figure>
+              <div class="comment clearfix">
+                <div class="comment-top"> <span class="name"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Anna Sroczyńska</a> · </span> <span class="job"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"></a> ·
+                  Najbardziej aktywny komentator </span> </div>
+                <div class="comment-content">
+                  <p>Każdy schudnie! Nawet mój maż i brat zaczeli stosować i sa zachwyceni! :)</p>
+                </div>
+                <div class="action-bar"> <span class="reply"> <a href="#">Odpowiedz</a> · </span> <span class="like"> <a href="#">Lubię to</a> · </span> <span class="count"> <i class="like"></i> 34 · </span> <span class="obs"> <a href="#">Obserwuj post</a> · </span> <span class="date">4 godziny temu</span> </div>
+              </div>
+            </li>
+            <!--komentarz 5-->
+
+            <!--komentarz 5-->
+            <li class="c clearfix subcoment">
+              <figure> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"> <img src="LP_files/piotr_p.jpg" alt="avatar"> </a> </figure>
+              <div class="comment clearfix">
+                <div class="comment-top"> <span class="name"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Piotr Połek</a> · </span> <span class="job"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"></a> ·
+                  Najbardziej aktywny komentator </span> </div>
+                <div class="comment-content">
+                  <p>Ja zrzuciłem na tej kuracji 23 kg, teraz jeszcze tylko siłka i wszystkie dziewczyny moje xD</p>
+                </div>
+                <div class="action-bar"> <span class="reply"> <a href="#">Odpowiedz</a> · </span> <span class="like"> <a href="#">Lubię to</a> · </span> <span class="count"> <i class="like"></i> 34 · </span> <span class="obs"> <a href="#">Obserwuj post</a> · </span> <span class="date">4 godziny temu</span> </div>
+              </div>
+            </li>
+            <!--komentarz 5-->
+
+            <!--komentarz 1-->
+
+            <li class="c clearfix">
+              <figure> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"> <img src="LP_files/laura_m.jpg" alt="" width="50" height="50"> </a> </figure>
+              <div class="comment clearfix">
+                <div class="comment-top"> <span class="name"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"><strong id="docs-internal-guid-7a254c1a-9c10-36e1-f39c-3f2751c06f52">Laura Mielczarczyk</strong></a> · </span> <span class="job"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"></a> </span> </div>
+                <div class="comment-content">
+                  <p>A ja dziś zaczynam! Chcę schudnąc do świat. Ale się cała rodzinka zdziwi, juz nie moge sie doczekać ich min!</p>
+                </div>
+                <div class="action-bar"> <span class="reply"> <a href="#">Odpowiedz</a> · </span> <span class="like"> <a href="#">Lubię to</a> · </span> <span class="count"> <i class="like"></i> 3 · </span> <span class="obs"> <a href="#">Obserwuj post</a> · </span> <span class="date">28 minut temu</span> </div>
+              </div>
+            </li>
+            <!--komentarz 1-->
+
+            <!--komentarz 5-->
+            <li class="c clearfix subcoment">
+              <figure> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"> <img src="LP_files/anna_g.jpg" alt="avatar"> </a> </figure>
+              <div class="comment clearfix">
+                <div class="comment-top"> <span class="name"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Anna Grólka</a> · </span> <span class="job"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"></a> ·
+                  Najbardziej aktywny komentator </span> </div>
+                <div class="comment-content">
+                  <p>To dla rodziny się odchudzasz?! Takie rzeczy robi się dla samej siebie!</p>
+                </div>
+                <div class="action-bar"> <span class="reply"> <a href="#">Odpowiedz</a> · </span> <span class="like"> <a href="#">Lubię to</a> · </span> <span class="count"> <i class="like"></i> 34 · </span> <span class="obs"> <a href="#">Obserwuj post</a> · </span> <span class="date">4 godziny temu</span> </div>
+              </div>
+            </li>
+            <!--komentarz 5-->
+
+            <!--komentarz 7-->
+            <li class="c clearfix">
+              <figure> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"> <img src="LP_files/angelika_t.jpg" alt="avatar"> </a> </figure>
+              <div class="comment clearfix">
+                <div class="comment-top"> <span class="name"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Angelika Troska</a> · </span> <span class="job"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"></a> ·
+                  </span> </div>
+                <div class="comment-content">
+                  <p> Dziś odebrałam i wygląda jak produkt premium, opakowanie i cala reszta. Zaczynam nowe życie, trzymajcie kciuki. :))</p>
+                </div>
+                <div class="action-bar"> <span class="reply"> <a href="#">Odpowiedz</a> · </span> <span class="like"> <a href="#">Lubię to</a> · </span> <span class="count"> <i class="like"></i> 10 · </span> <span class="obs"> <a href="#">Obserwuj post</a> · </span> <span class="date">12 godzin temu</span> </div>
+              </div>
+            </li>
+            <!--komentarz 7-->
+
+            <!--komentarz 6-->
+            <li class="c clearfix">
+              <figure> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"> <img src="LP_files/agata_l.jpg" alt="avatar"> </a> </figure>
+              <div class="comment clearfix">
+                <div class="comment-top"> <span class="name"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Agata Lisowska</a> · </span> <span class="job"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"></a> ·
+                  Najbardziej aktywny komentator </span> </div>
+                <div class="comment-content">
+                  <p> Pomoże pozbyc sie nadwagi po ciazy? Glownie na brzuchu? </p>
+                </div>
+                <div class="action-bar"> <span class="reply"> <a href="#">Odpowiedz</a> · </span> <span class="like"> <a href="#">Lubię to</a> · </span> <span class="count"> <i class="like"></i> 2 · </span> <span class="obs"> <a href="#">Obserwuj post</a> · </span> <span class="date">7 godzin minut temu</span> </div>
+              </div>
+            </li>
+            <!--komentarz 6-->
+
+            <!--komentarz 5-->
+            <li class="c clearfix subcoment">
+              <figure> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"> <img src="LP_files/edyta_z.jpg" alt="avatar"> </a> </figure>
+              <div class="comment clearfix">
+                <div class="comment-top"> <span class="name"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Edyta Ząbkowska</a> · </span> <span class="job"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"></a> ·
+                  Najbardziej aktywny komentator </span> </div>
+                <div class="comment-content">
+                  <p>Agata - ja zaczęłam stosować jak tylko przestałam karmić, 
+schudłam z Sliminator ponad 20 kg. Córeczka ma już prawie 
+dwa latka a ja wciąż wyglądam jak seksi mama. Polecam serdecznie! :)</p>
+                </div>
+                <div class="action-bar"> <span class="reply"> <a href="#">Odpowiedz</a> · </span> <span class="like"> <a href="#">Lubię to</a> · </span> <span class="count"> <i class="like"></i> 34 · </span> <span class="obs"> <a href="#">Obserwuj post</a> · </span> <span class="date">4 godziny temu</span> </div>
+              </div>
+            </li>
+            <!--komentarz 5-->
+
+            <!--komentarz 8-->
+            <li class="c clearfix">
+              <figure> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"> <img src="LP_files/kacper_w.jpg" alt="avatar"> </a> </figure>
+              <div class="comment clearfix">
+                <div class="comment-top"> <span class="name"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Kacper Walczak</a> · </span> <span class="job"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Szkoła podstawowa nr 2 w Żyrardowie</a> </span> </div>
+                <div class="comment-content">
+                  <p>Znajomi mi polecili i mamy zamiar zacząć z żoną. Wyobrażacie sobie, jak będzie wyglądać nasze łóżko, gdy oboje tyle schudniemy?! Nie moge się doczekać...</p>
+                </div>
+                <div class="action-bar"> <span class="reply"> <a href="#">Odpowiedz</a> · </span> <span class="like"> <a href="#">Lubię to</a> · </span> <span class="count"> <i class="like"></i> </span> <span class="obs"> <a href="#">Obserwuj post</a> · </span> <span class="date">10 godzin temu</span> </div>
+              </div>
+            </li>
+            <!--komentarz 8-->
+
+            <!--komentarz 11-->
+            <li class="c clearfix">
+              <figure> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"> <img src="LP_files/patrycja_n.jpg" alt="avatar"> </a> </figure>
+              <div class="comment clearfix">
+                <div class="comment-top"> <span class="name"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"> Patrycja Niewiadomska</a> · </span> <span class="job"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"></a> ·
+                  Najbardziej aktywny komentator </span> </div>
+                <div class="comment-content">
+                  <p> Wreszcie coś, co działa! Milion razy lepsze niz siłownia! Poprawiły mi się nawet włosy i pacnokcie. Ten produkt to najlepszy przyjaciel każdej kobiety^^</p>
+                </div>
+                <div class="action-bar"> <span class="reply"> <a href="#">Odpowiedz</a> · </span> <span class="like"> <a href="#">Lubię to</a> · </span> <span class="count"> <i class="like"></i> 3 · </span> <span class="obs"> <a href="#">Obserwuj post</a> · </span> <span class="date">wczoraj o 18:34</span> </div>
+              </div>
+            </li>
+            <!--komentarz 11-->
+
+            <!--komentarz 5-->
+            <li class="c clearfix subcoment">
+              <figure> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"> <img src="LP_files/ania.png" alt="avatar"> </a> </figure>
+              <div class="comment clearfix">
+                <div class="comment-top"> <span class="name"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Anna Sroczyńska</a> · </span> <span class="job"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"></a> ·
+                  Najbardziej aktywny komentator </span> </div>
+                <div class="comment-content">
+                  <p>Racja! Siłownia zabiera tyle czasu! Fajnie czasem pójść, ale żeby tyle schudnąć, to musiałabym zamieszkać na siłowni...</p>
+                </div>
+                <div class="action-bar"> <span class="reply"> <a href="#">Odpowiedz</a> · </span> <span class="like"> <a href="#">Lubię to</a> · </span> <span class="count"> <i class="like"></i> 34 · </span> <span class="obs"> <a href="#">Obserwuj post</a> · </span> <span class="date">4 godziny temu</span> </div>
+              </div>
+            </li>
+            <!--komentarz 5-->
+
+            <!--komentarz 9-->
+            <li class="c clearfix">
+              <figure> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"> <img src="LP_files/joanna_r.jpg" alt="avatar"> </a> </figure>
+              <div class="comment clearfix">
+                <div class="comment-top"> <span class="name"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Joanna Rudzka</a> · </span> <span class="job"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"></a> </span> </div>
+                <div class="comment-content">
+                  <p>Najlepsze, że sie chudnie bez żadnej strasznej diety. Chcesz cos słodkiego? Jesz i nie boisz sie, że zaraz przytyjesz. Waga i tak cały czas leci w dół. Szkoda, że tak póxno sie o tym dowiedzialam. </p>
+                </div>
+                <div class="action-bar"> <span class="reply"> <a href="#">Odpowiedz</a> · </span> <span class="like"> <a href="#">Lubię to</a> · </span> <span class="count"> <i class="like"></i> </span> <span class="obs"> <a href="#">Obserwuj post</a> · </span> <span class="date">wczoraj o 22:13</span> </div>
+              </div>
+            </li>
+            <!--komentarz 9-->
+
+            <!--komentarz 10-->
+            <li class="c clearfix">
+              <figure> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"> <img src="LP_files/dawid_b.jpg" alt="avatar"> </a> </figure>
+              <div class="comment clearfix">
+                <div class="comment-top"> <span class="name"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Dawid Borczyk</a> · </span> <span class="job"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"></a> ·
+                  Najbardziej aktywny komentator </span> </div>
+                <div class="comment-content">
+                  <p>Aa mi po tym zaczeły mięśnie wychodzić! WOW! </p>
+                </div>
+                <div class="action-bar"> <span class="reply"> <a href="#">Odpowiedz</a> · </span> <span class="like"> <a href="#">Lubię to</a> · </span> <span class="count"> <i class="like"></i> </span> <span class="obs"> <a href="#">Obserwuj post</a> · </span> <span class="date">wczoraj o 20:40</span> </div>
+              </div>
+            </li>
+            <!--komentarz 10-->
+
+            <!--komentarz 12-->
+            <li class="c clearfix">
+              <figure> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"> <img src="LP_files/barbara_k.jpg" alt="avatar"> </a> </figure>
+              <div class="comment clearfix">
+                <div class="comment-top"> <span class="name"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Barbara Kowska</a> · </span> <span class="job"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"></a> ·
+                  Najbardziej aktywny komentator </span> </div>
+                <div class="comment-content">
+                  <p>Najlepsza decyzja w moim zyciu. Dziwi mnie tylko, że to takie tanie, W Danii jest koło 100 zł drożej. Dlaczego tak? Cena dopasowana do konkretnego rynku?</p>
+                </div>
+                <div class="action-bar"> <span class="reply"> <a href="#">Odpowiedz</a> · </span> <span class="like"> <a href="#">Lubię to</a> · </span> <span class="count"> <i class="like"></i> </span> <span class="obs"> <a href="#">Obserwuj post</a> · </span> <span class="date">wczoraj o 17:52</span> </div>
+              </div>
+            </li>
+            <!--komentarz 12-->
+
+            <!--komentarz 5-->
+            <li class="c clearfix subcoment">
+              <figure> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"> <img src="LP_files/ania.png" alt="avatar"> </a> </figure>
+              <div class="comment clearfix">
+                <div class="comment-top"> <span class="name"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Anna Sroczyńska</a> · </span> <span class="job"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"></a> ·
+                  Najbardziej aktywny komentator </span> </div>
+                <div class="comment-content">
+                  <p>Pani Barbaro, standardowa cena jest znacznie wyższa. Aktualnie jest promocja, dlatego cena jest taka niska.</p>
+                </div>
+                <div class="action-bar"> <span class="reply"> <a href="#">Odpowiedz</a> · </span> <span class="like"> <a href="#">Lubię to</a> · </span> <span class="count"> <i class="like"></i> 34 · </span> <span class="obs"> <a href="#">Obserwuj post</a> · </span> <span class="date">4 godziny temu</span> </div>
+              </div>
+            </li>
+            <!--komentarz 5-->
+
+            <!--komentarz 13-->
+            <li class="c clearfix">
+              <figure> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"> <img src="LP_files/weronika_l.jpg" alt="avatar"> </a> </figure>
+              <div class="comment clearfix">
+                <div class="comment-top"> <span class="name"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Weronika Lachowska</a> · </span> <span class="job"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"></a> ·
+                  Najbardziej aktywny komentator </span> </div>
+                <div class="comment-content">
+                  <p> Moja mama chcialaby spróbowac. Czy kobiety po menopauzie po 50 roku też mogą?</p>
+                </div>
+                <div class="action-bar"> <span class="reply"> <a href="#">Odpowiedz</a> · </span> <span class="like"> <a href="#">Lubię to</a> · </span> <span class="count"> <i class="like"></i> </span> <span class="obs"> <a href="#">Obserwuj post</a> · </span> <span class="date">wczoraj o 15:32</span> </div>
+              </div>
+            </li>
+            <!--komentarz 13-->
+
+            <!--komentarz 5-->
+            <li class="c clearfix subcoment">
+              <figure> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"> <img src="LP_files/izabela_r.jpg" alt="avatar"> </a> </figure>
+              <div class="comment clearfix">
+                <div class="comment-top"> <span class="name"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Izabela Rubczak </a> · </span> <span class="job"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"></a> ·
+                  Najbardziej aktywny komentator </span> </div>
+                <div class="comment-content">
+                  <p>Spokojnie! Moja teściowa brała, a ma 67 lat! Schudła 13 kg, w końcu ma cholesterol w normie i pełno energii, nie to co kiedyś.</p>
+                </div>
+                <div class="action-bar"> <span class="reply"> <a href="#">Odpowiedz</a> · </span> <span class="like"> <a href="#">Lubię to</a> · </span> <span class="count"> <i class="like"></i> 34 · </span> <span class="obs"> <a href="#">Obserwuj post</a> · </span> <span class="date">4 godziny temu</span> </div>
+              </div>
+            </li>
+            <!--komentarz 5-->
+
+            <!--komentarz 13-->
+            <li class="c clearfix">
+              <figure> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"> <img src="LP_files/dorota_l.jpg" alt="avatar"> </a> </figure>
+              <div class="comment clearfix">
+                <div class="comment-top"> <span class="name"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Dorota Łotkowska</a> · </span> <span class="job"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"></a> ·
+                  Najbardziej aktywny komentator </span> </div>
+                <div class="comment-content">
+                  <p>14 kg mniej i nareszcie ZERO CELLULITU! JEEEE!!!!! </p>
+                </div>
+                <div class="action-bar"> <span class="reply"> <a href="#">Odpowiedz</a> · </span> <span class="like"> <a href="#">Lubię to</a> · </span> <span class="count"> <i class="like"></i> </span> <span class="obs"> <a href="#">Obserwuj post</a> · </span> <span class="date">wczoraj o 15:32</span> </div>
+              </div>
+            </li>
+            <!--komentarz 13-->
+
+            <!--komentarz 13-->
+            <li class="c clearfix">
+              <figure> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"> <img src="LP_files/mateusz_k.jpg" alt="avatar"> </a> </figure>
+              <div class="comment clearfix">
+                <div class="comment-top"> <span class="name"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Mateusz Kot</a> · </span> <span class="job"> <a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D"></a> ·
+                  Najbardziej aktywny komentator </span> </div>
+                <div class="comment-content">
+                  <p>genialny środek, polecam</p>
+                </div>
+                <div class="action-bar"> <span class="reply"> <a href="#">Odpowiedz</a> · </span> <span class="like"> <a href="#">Lubię to</a> · </span> <span class="count"> <i class="like"></i> </span> <span class="obs"> <a href="#">Obserwuj post</a> · </span> <span class="date">wczoraj o 15:32</span> </div>
+              </div>
+            </li>
+            <!--komentarz 13-->
+
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+<footer>
+  <div class="container">
+        
+    <div style="font-size: 12px">
+        <a href="../../../advertixllc.com/polityka-prywatnosci/default.htm">
+            Polityka prywatności
+        </a> |
+        <a href="../../../advertixllc.com/regulamin/default.htm">
+            Regulamin
+        </a> 
+    </div>       
+
+    <ul class="footer_links">
+      <li><a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">O mnie</a></li>
+      <li><a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Uroda</a></li>
+      <li><a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Psychologia</a></li>
+      <li><a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Plotki</a></li>
+      <li><a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Lifestyle</a></li>
+      <li><a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Moda</a></li>
+      <li><a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Kuchnia</a></li>
+      <li><a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Zdrowie</a></li>
+      <li><a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Miejsca</a></li>
+      <li><a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Eko</a></li>
+      <li><a href="../../../nieziemskie-rabaty.com/tylko-dzis-60-procent-taniej/@_vs=NQkL2wWuFZ4SIJ3NtF6QQEuciCgakBkbH48_253D">Humor</a></li>
+    </ul>
+  </div>
+        <center>
+		<p style="font-size: 10px; color: gray; width: 95%; text-align: center">*Przedstawione treści nie stanowią porady lekarskiej i nie mogą zastępować konsultacji u specjalisty. Prezentowany produkt to suplement diety, który nie może być stosowany jako substytut zbilansowanej i zróżnicowanej diety. </p> </center>
+</footer>
+
+
+
+
+<script>
+
+//cookies lib
+!function(e){var n=!1;if("function"==typeof define&&define.amd&&(define(e),n=!0),"object"==typeof exports&&(module.exports=e(),n=!0),!n){var o=window.Cookies,t=window.Cookies=e();t.noConflict=function(){return window.Cookies=o,t}}}(function(){function g(){for(var e=0,n={};e<arguments.length;e++){var o=arguments[e];for(var t in o)n[t]=o[t]}return n}return function e(l){function C(e,n,o){var t;if("undefined"!=typeof document){if(1<arguments.length){if("number"==typeof(o=g({path:"../../default.htm"},C.defaults,o)).expires){var r=new Date;r.setMilliseconds(r.getMilliseconds()+864e5*o.expires),o.expires=r}o.expires=o.expires?o.expires.toUTCString():"";try{t=JSON.stringify(n),/^[\{\[]/.test(t)&&(n=t)}catch(e){}n=l.write?l.write(n,e):encodeURIComponent(String(n)).replace(/%(23|24|26|2B|3A|3C|3E|3D|2F|3F|40|5B|5D|5E|60|7B|7D|7C)/g,decodeURIComponent),e=(e=(e=encodeURIComponent(String(e))).replace(/%(23|24|26|2B|5E|60|7C)/g,decodeURIComponent)).replace(/[\(\)]/g,escape);var i="";for(var c in o)o[c]&&(i+="; "+c,!0!==o[c]&&(i+="="+o[c]));return document.cookie=e+"="+n+i}e||(t={});for(var a=document.cookie?document.cookie.split("; "):[],s=/(%[0-9A-Z]{2})+/g,f=0;f<a.length;f++){var p=a[f].split("="),d=p.slice(1).join("=");this.json||'"'!==d.charAt(0)||(d=d.slice(1,-1));try{var u=p[0].replace(s,decodeURIComponent);if(d=l.read?l.read(d,u):l(d,u)||d.replace(s,decodeURIComponent),this.json)try{d=JSON.parse(d)}catch(e){}if(e===u){t=d;break}e||(t[u]=d)}catch(e){}}return t}}return(C.set=C).get=function(e){return C.call(C,e)},C.getJSON=function(){return C.apply({json:!0},[].slice.call(arguments))},C.defaults={},C.remove=function(e,n){C(e,"",g(n,{expires:-1}))},C.withConverter=e,C}(function(){})});
+
+    var t = JSON.parse('{"title":"Rabat 80% dost\u0119pny dla Ciebie!","desc":"Chcesz dostawa\u0107 informacje o rabatach i zni\u017ckach nawet do 80%? Teraz to mo\u017cliwe! Odbieraj rabaty ka\u017cdego dnia i ciesz si\u0119 z oszcz\u0119dzonych pieni\u0119dzy. Zapisz si\u0119 zanim zrobi\u0105 to inni!","ok":"Odbieram","cancel":"Rezygnuj\u0119"}')
+
+    wpush = {
+    	_url: '../../../https@push.ad-cdn360.com/p',
+      _dev: false,
+      _data: {},
+      _ty1: t.ty1 || null,
+      _ty2: t.ty2 || null
+    }
+    
+    wpush.gc = function(){
+    	return document.getElementById('wpush-container')
+    }
+    
+    wpush.inject_css = function(){
+    	var c = `.insider-opt-in-notification{width:422px;padding:0;border:1px solid #bababa;border-radius:3px;box-shadow:0 4px 4px -2px #888;background-color:#fbfbfb;font-family:Arial,sans-serif;position:fixed;top:0;left:50%;margin-left:-211px;z-index:9999999999999}.insider-opt-in-notification-inner-container{margin:0;padding:0 20px 10px}.insider-opt-in-notification-image-container{float:left;margin:13px 15px 0 0}.insider-opt-in-notification-image-container img{width:65px;height:65px}.insider-opt-in-notification-text-container{position:relative!important;padding:10px 0 0!important;color:#000!important;text-align:left!important;margin:0!important;line-height:1.4em!important}.insider-opt-in-notification-title{margin-bottom:5px;text-align:left;font-size:14px;font-weight:700;line-height:1.4em;color:#000;word-break:break-word;overflow:hidden}.insider-opt-in-notification-description{font-size:12px;line-height:1.4em;margin:10px 0;padding:0;text-align:left;word-break:break-word;overflow:hidden}.insider-brand-logo{float:left;font-size:10px;margin-top:8px;line-height:18px}.insider-brand-logo img{width:38px;margin-left:3px;float:right}.insider-opt-in-notification-button-container{float:right!important}.insider-opt-in-notification-button{width:auto;height:18px;min-width:100px;max-width:170px;line-height:18px;margin-left:3px;padding:5px;background:#f9f9f9;border:1px solid #bababa;border-radius:1px;display:inline-block;font-size:14px;text-align:center;cursor:pointer;box-sizing:content-box}.insider-opt-in-allow-button{background:#00c33d;color:#fff;border-color:#059833}@media all and (max-width:421px){.insider-opt-in-notification{width:100%;left:0;margin:0;border-radius:0;border-left:0;border-right:0;border-top:0}}.insider-opt-in-overlay{width:100%;height:100%;position:fixed!important;top:0;left:0;z-index:999999!important;display:block!important;background-color:#000!important;opacity:.8!important}.insider-opt-in-overlay-message{position:fixed;z-index:9999999!important;color:#fff;left:50%;top:50%;width:380px;height:50px;text-align:center;-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);transform:translate(-50%,-50%);font-size:20px}`
+      
+      
+    	var el = document.createElement('style')
+      el.style = 'text/css'
+      el.appendChild(document.createTextNode(c));
+      (document.head || document.getElementsByTagName('head')[0]).appendChild(el)
+    }
+    wpush.inject_html = function(){
+    	var h = `<div class="insider-opt-in-notification" id="wpush-container" style="top: 0px; display:none">
+        <div class="insider-opt-in-notification-inner-container">
+            <!-- <div class="insider-opt-in-notification-image-container">
+                <img src="img.png" class="insider-opt-in-notification-image">
+            </div> -->
+            <div class="insider-opt-in-notification-text-container">
+                <div class="insider-opt-in-notification-title">Rabat 80% dostępny dla Ciebie!</div>
+                <div class="insider-opt-in-notification-description">Chcesz dostawać informacje o rabatach i zniżkach nawet do 80%? Teraz to możliwe! Odbieraj rabaty każdego dnia i ciesz się z oszczędzonych pieniędzy. Zapisz się zanim zrobią to inni!</div>
+            </div>
+            <div style="clear: both;">
+                <div class="insider-opt-in-notification-button-container">
+                    <div onclick="wpush.close(true)" class="insider-opt-in-notification-button insider-opt-in-disallow-button">
+                        Rezygnuję
+                    </div>
+                    <div onclick="wpush.open()" class="insider-opt-in-notification-button insider-opt-in-allow-button">
+                        Odbieram
+                    </div>
+                </div>
+                <div style="clear: both;"></div>
+            </div>
+        </div>
+    </div>`
+    
+    	var el = document.createElement('div')
+      el.innerHTML = h
+      document.body.appendChild(el)
+    }
+    
+    wpush.gaev = function(eventLabel, eventValue){
+        ga && ga('send', 'event', 'webpush', 'click', eventLabel, eventValue || 1)
+    }
+    
+    wpush.init = function(initData){
+    	
+      var chrome   = navigator.userAgent.indexOf('Chrome') > -1;
+    	var firefox  = navigator.userAgent.indexOf('Firefox') > -1;
+    	var edge  = navigator.userAgent.indexOf('Edge') > -1;
+    	
+      
+      if(!chrome && !firefox && !edge){
+        this.gaev('wrong_browser')
+      	return;
+      }
+      
+      
+      this.inject_css()
+      this.inject_html()
+    
+    	this._data = initData || {}
+      
+    	if(!Cookies.get('wpush-agreed')){
+      	this.gc().style.display="block"
+      }
+      
+      if(this._dev){
+      	this.gc().style.display="block"
+      }
+      
+      this.gaev('init')
+    }
+    
+    wpush.open = function(url) {
+    	if(!this._dev){
+      	Cookies.set('wpush-agreed','1', { expires: 30*120 })
+      }
+      
+      var params = "?t="+ encodeURIComponent(JSON.stringify(this._data));
+      
+      if(this._ty1){
+          params += "&ty1="+encodeURIComponent(this._ty1);
+      }
+      if(this._ty2){
+          params += "&ty2="+encodeURIComponent(this._ty2);
+      }
+      
+      this.gaev('open')
+    	var url = url || this._url + params
+    	var width = 600
+      var height = 550
+    	var left = (window.innerWidth / 2) - (width / 2)
+      var top = (window.innerHeight / 2) - (height / 2)
+      var win = window.open(url, '_blank', "height="+height+",width="+width+",left="+left+",top="+top+"");
+      win.focus();
+      
+      this.close()
+    }
+    
+    wpush.close = function(manual){
+        if(manual){
+            this.gaev('close')    
+        }
+        
+      this.gc().style.display = 'none';
+    }
+    
+    window.wpush = wpush
+    
+    window.__onDomReady888__(function(){
+        window.wpush.gaev('page_load')
+        if(window.wpushinit || window.wpushinit === undefined){
+            window.wpush.init(__vl['wpd'])
+        }
+    })
+
+</script><img class="h58a4fjd" src="../../usbm_trck_3322" alt="noempty"/><a class="h58a4fjd" href="../../sbm_trck_74855" title="noempty">noempty</a><script></script><script type="text/javascript">
+    (function() {
+        var d = document, w = window;
+        w.MgSensorData = w.MgSensorData || [];
+        w.MgSensorData.push({
+            cid:292441,
+            lng:"us",
+            nosafari:true,
+            project: "a.mgid.com"
+        });
+        var l = "a.mgid.com";
+        var n = d.getElementsByTagName("script")[0];
+        var s = d.createElement("script");
+        s.type = "text/javascript";
+        s.async = true;
+        var dt = !Date.now?new Date().valueOf():Date.now();
+        s.src = "//" + l + "/mgsensor.js?d=" + dt;
+        n.parentNode.insertBefore(s, n);
+    })();
+</script>
+</body></html>

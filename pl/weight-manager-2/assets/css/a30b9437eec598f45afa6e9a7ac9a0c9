@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fad58de7366495db4650cfefac2fcd61/css/5b0155d48105d0461a4e33842a3eabaa.woff) format('woff');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fad58de7366495db4650cfefac2fcd61/css/df1789e86fbea2f7f4c2d6a945efd580.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fad58de7366495db4650cfefac2fcd61/css/73f8d6d427461b02128cdb0ac5f70fec.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fad58de7366495db4650cfefac2fcd61/css/2d25c1082821afb92bfb3457cc9c460c.woff) format('woff');
+}

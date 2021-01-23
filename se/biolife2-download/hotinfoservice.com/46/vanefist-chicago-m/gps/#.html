@@ -1,0 +1,1390 @@
+
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="https://www.w3.org/1999/xhtml">
+
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portal av stiftelsen Sanus mandu</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                <link href="//hotinfoservice.com/46/vanefist-chicago-m/gps/264244ce6csd626962bb7817596c6a1b9a/style/style.css" rel="stylesheet">
+        <link href="//hotinfoservice.com/46/vanefist-chicago-m/gps/99803e483dsdba4291b4eacce9757df223/lightbox/2.11.1/css/lightbox.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+      <script src="/track-nabx-compiled.js"></script><style>.q7bd69e97 { width:1px !important; height:1px !important; border:0 !important; background:none !important; border-style:none !important; position:absolute; }</style>
+
+            <script type='text/javascript'>
+            var _tx ='hotinfoservice.com/46/vanefist-chicago-m/gps/';
+
+            function ltabx(arr)
+            {
+                var _body = document.getElementsByTagName('body') [0];
+                var _ifr = document.createElement('iframe');
+                if( _tx[_tx.length-1] !== '/' ){
+                  _tx = _tx+'/';
+                }
+                var params=[],k;
+                for(k in arr){
+                    params.push(k+'='+arr[k]);
+                }
+                _ifr.setAttribute('src', '//'+_tx+'tabx?'+params.join('&'));
+                _ifr.setAttribute('height', '1');
+                _ifr.setAttribute('width', '1');
+                _ifr.setAttribute('frameborder', '0');
+                _ifr.setAttribute('scrolling', 'no');
+                _ifr.setAttribute('class', 'q7bd69e97');
+                _body.appendChild(_ifr);
+            }
+            var _aab = _aab || [];
+            _aab.push(['setTracker','stabx.net']);
+            _aab.push(['setPvt', 'rvdizknt3x22bbjaq0lozedrheuvwvlt']);
+            ;
+            _aab.push(['setCustomVars',{
+                    hid:    '6897240414643767101',
+                    aid:    '768',
+                    ac:     '666',
+                    cid:    '',
+                    kid:    '',
+                    subid:  '',
+                    va:    '',
+                    vc:  ''
+
+            }]);
+            _aab.push(['onTest', function(d) {
+                for (var i = 0; i < d.length; i++) {
+                    ltabx({
+                        tid: d[i]._id,
+                        vid: d[i].variant_id
+                    });
+                }
+            }]);
+            _aab.push(['trackPerformance']);
+            _aab.push(['track']);
+            _aab.push(['trackScroll']);
+            _aab.push(['trackSpentTime']);
+            (function (d) {
+                var s = d.createElement('script'); s.type = 'text/javascript'; s.async = false; s.src = '/track-compiled.js';
+                var t = d.getElementsByTagName('script')[0]; t.parentNode.insertBefore(s, t);
+            })(document);
+            </script>
+        <script>
+var _d   = 'hotinfoservice.com/46/vanefist-chicago-m/gps/';
+var _chk = 19;
+var _t   = 41116;
+var vid = "rvdizknt3x22bbjaq0lozedrheuvwvlt";
+</script>
+<style>.qd5de1775 { width:2px !important; height:2px !important; border:0 !important; background:none !important; border-style:none !important; position:absolute; bottom: 500px; }</style>
+<script type='text/javascript' src="//hotinfoservice.com/46/vanefist-chicago-m/gps/f73ff77065sde30aee03bb85db2bcfe708/track.js"></script>
+        <script type='text/javascript'>
+      function sendRequest(url,callback,postData,forceMethod) {
+        var req = createXMLHTTPObject();
+        if (!req) return;
+        var method = forceMethod ? forceMethod : (postData) ? "POST" : "GET";
+        req.open(method,url,true);
+        if (postData)
+          req.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+        req.onreadystatechange = function () {
+          if (req.readyState != 4) return;
+          if (req.status != 200 && req.status != 304) {
+            return;
+          }
+          callback(req);
+        }
+        if (req.readyState == 4) return;
+        req.send(postData);
+      }
+
+      var XMLHttpFactories = [
+        function () {return new XMLHttpRequest()},
+        function () {return new ActiveXObject("Msxml2.XMLHTTP")},
+        function () {return new ActiveXObject("Msxml3.XMLHTTP")},
+        function () {return new ActiveXObject("Microsoft.XMLHTTP")}
+      ];
+
+      function createXMLHTTPObject() {
+        for (var i= 0,xmlhttp = false;i< XMLHttpFactories.length;i++) {
+          try {xmlhttp = XMLHttpFactories[i]()}
+          catch (e) {continue}
+          break;
+        }
+        return xmlhttp;
+      }
+      function sendEvent(eventName, eventArgs, data) {
+        var event = eventName + ((typeof eventArgs !== "undefined" && eventArgs) ? "_" + eventArgs : "");
+        try{ _aab.push(["event", event]);} catch(e){}
+        console.log(event);
+        var _n = eventName.split("_"), a = [];
+        data = data || [];
+        data.action= _n[0];
+        data.type = _n[1];
+        data.time = new Date().getTime();
+        if (typeof vid !== "undefined")
+          data.vid = vid;
+        for (var p in data)
+          a.push(encodeURIComponent(p) + "=" + encodeURIComponent(data[p]));
+        var qstring = a.join("&");
+        sendRequest("jsdata.php",function(){},qstring,"POST")
+      }
+      function sendCustomEvent(name, value) {
+        sendEvent("custom", null, {
+          name: name,
+          value: value
+        })
+      }
+    </script>
+            <script type="text/javascript">
+            function sendValidationRequest(callback, city, postcode, country) {
+                let postData = [];
+                postData.push('city' + '=' + encodeURI(city));
+                postData.push('zipcode' + '=' + encodeURI(postcode));
+                postData.push('country_code' + '=' + encodeURI(country));
+                postData = postData.join('&').replace(/%20/g, '+');
+
+                sendRequest('va.php', function (req) {
+                        callback(req);
+                    },
+                    postData,
+                    'POST'
+                );
+            }
+        </script>
+    </head>
+      <script>
+      function dtime(d,type){
+          var months=new Array('januari', 'februari', 'mars', 'april', 'maj', 'juni', 'juli', 'augusti', 'september', 'oktober', 'november', 'december');
+          var now = new Date();
+          var month=now.getMonth();
+
+          now.setDate(now.getDate() + d + 1);
+          document.write(' '+now.getDate()+" "+months[month]+" "+now.getFullYear());
+        }
+      </script>
+
+      <body>
+                        <div class="container container_nav">
+          <div class="nav_one">
+
+            <div class="nav_one_link margin-r-7">
+              <img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/koperta.png" alt="">
+              <p>Skriv till oss</p>
+            </div>
+
+            <div class="nav_one_links">
+              <div class="nav_one_link">
+                <img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/logowanie.png" alt="">
+                <p style="text-transform:uppercase;">logga in</p>
+              </div>
+              <div class="nav_one_link">
+                <p style="text-transform:uppercase;">|</p>
+              </div>
+              <div class="nav_one_link">
+                <img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/Vector_Smart_Object.png" alt="">
+                <p style="text-transform:uppercase;">registrering</p>
+              </div>
+
+          </div>
+        </div>
+
+        <div class="logo">
+          <div class="logo-container">
+              <img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/logo.png" alt=""><br/>
+
+                  <div class="logo_subtitle ">Gå ner i vikt för hälsa</div>
+
+
+          </div>
+          <div style="display: flex; flex-direction: column; align-items: flex-end;">
+            <div>
+              <input type="text" class="input-search">
+              <button class="btn-search"><a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=0&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19">Sök</a></button>
+            </div>
+
+            <div>
+                <ul class="nav_links">
+                    <li class="nav_link"><a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=1&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19" target="_blank">OM STIFTELSEN</a></li>
+                    <li class="nav_link"><a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=2&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19" target="_blank">ARTIKLAR</a></li>
+                    <li class="nav_link"><a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=3&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19" target="_blank">RECENSIONER</a></li>
+                    <li class="nav_link"><a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=4&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19" target="_blank">KONFERENSER</a></li>
+                    <li class="nav_link"><a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=5&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19" target="_blank">EVENEMANG</a></li>
+                </ul>
+            </div>
+
+          </div>
+        </div>
+        <section class="content_body">
+          <div class="content_body_margin">
+
+            <div class="content_body_description">
+              <div style="display: flex; flex-didrection: row; justify-content: space-between;">
+                  <p class="data_published">Datum för publicering:<script>dtime(-2,1)</script>  10:53 | Sista aktualisering: 04:40</p>
+                <div style="display: flex; align-items: center; justify-content: center; position: relative;">
+                  <img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/facebook_shares.png" alt="">
+                  <span style="position: absolute; color: #ffffff; font-weight: 700; margin-left: 12px;
+    ">1346</span>
+                </div>
+              </div>
+
+              <div class="article_text_body">
+                  <h1>Första formeln som sätter igång kroppens automatiska fettförbränning har uppfunnits <span class="new_line">[<span class="text-danger color_red font-weight-bold">ENDAST HOS OSS:</span> rapporten från en konferens i Los Angeles]</span></h1>
+                  <p class="lead"></p>
+                <p>Artikelns författare: <span style="color: #8a8a8a;">Viktoria Sandström</span></p>
+
+                <div class="social_media">
+                    <a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=6&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19" target="_blank">
+                        <img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/facebook.png" alt="facebook">
+                    </a>
+                    <a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=7&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19" target="_blank">
+                        <img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/twitter.png" alt="twitter">
+                    </a>
+                    <a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=8&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19" target="_blank">
+                        <img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/pinterest.png" alt="pinterest">
+                    </a>
+                    <a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=9&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19" target="_blank">
+                        <img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/gmail.png" alt="gmail">
+                    </a>
+                    <a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=10&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19" target="_blank">
+                        <img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/linkedin.png" alt="linkedin">
+                    </a>
+                    <div class="print">
+                      <img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/print.png"  alt="">
+                      <span style="margin-left: 5px;">Skriv ut</span>
+                    </div>
+                </div>
+                <div class="img_section">
+                    <a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=11&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19" target="_blank">
+                        <img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/img_1.jpg" alt="">
+                    </a>
+                  <p>
+                    <p class="font-weight-bold">Svenska forskare har ännu inte slutat häpna men detta är ett faktum. Undersökningarna från oberoende europeiska laboratorier bekräftar över alla tvivel att den formel som skapats av amerikaner får dig att gå ner 15 kg på 30 dagar säkert, utan diet eller träning. Den gör alla smalare – oavsett ålder, kön, livsstil samt varför och hur länge övervikt finns till. Detta är ett riktigt genombrott.
+                  </p>
+                </div>
+
+                <div class="section_item">
+                    <p>Forskningsgruppen på Institut för Överviktsförebyggande i Los Angeles under ledning av prof. Edward M. Whitford började forska om en formel som automatiskt bränner fett redan för 2 år sedan. Recensionerna från många svenska professorer var inte positiva. <i>Absurd, amerikanska påhitt... Vi borde bättre informera överviktiga människor om att de måste börja en "FIT"-diet för att skydda sig mot en hjärtinfarkt!</i> – så här kommenterade de nyheterna från USA för lokala medier. Vi kommer inte att ge namnen på de människor som uttalade sig på så sätt för vi misstänker att professorerna helt enkelt skäms just nu. Varför? Det de sa var...</p>
+
+                </div>
+
+                <div class="section_item">
+                  <h2>...den svenska medicinens stora lögn!</h2>
+                  <p>
+                    Tyvärr ligger det i svenska specialisters intresse att undertrycka en sådan banbrytande forskning. Anledningen är enkel. Stora företag som tjänar på försäljningen av "FIT"-mat <strong>betalar dem för att marknadsföra påstådda dietprodukter</strong> för att hålla verksamheten igång. På så sätt skor de sig på människor som är desperata pga sin övervikt, komplex och allt sämre hälsotillstånd...                  </p>
+                    <p>
+                        Som tur var – när nyheten om att Institut för Överviktsförebyggande i Los Angeles uppfann en kur som automatiskt bränner 15 kg fett på 30 dagar nådde Sverige, lyckades vår stiftelse få en inbjudan till en konferens i Los Angeles där den nya formeln presenterades och dess effekter och effektivitet diskuterades.                    </p>
+
+                </div>
+
+                <div class="section_item">
+
+                <h2>Det är de som vi kan tacka för ett globalt genombrott i kampen mot övervikt och fetma:</h2>
+
+                </div>
+
+                <div class="d_flex d_flex--wrap flex_space_around section_dr">
+
+                  <div class="dr_item">
+                    <div class="dr_img_body" style="background: url(//hotinfoservice.com/46/vanefist-chicago-m/gps/63a6ed81cfsdb24ad978382e33afaf1926/doctors/edward_whitford.png) no-repeat top; background-size: contain; ">
+                      <p class="dr_name">prof. Edward M. Whitford</p>
+                    </div>
+                    <p>chef för forskningsgruppen, specialist på metaboliska förändringar</p>
+                  </div>
+
+                  <div class="dr_item">
+                    <div class="dr_img_body" style="background: url(//hotinfoservice.com/46/vanefist-chicago-m/gps/63a6ed81cfsdb24ad978382e33afaf1926/doctors/philip_simmons.jpg) no-repeat top; background-size: contain; ">
+                      <p class="dr_name">prof. Philip Simmons  </p>
+                    </div>
+                    <p>specialist på nanocellutbyte</p>
+                  </div>
+
+                  <div class="dr_item">
+                    <div class="dr_img_body" style="background: url(//hotinfoservice.com/46/vanefist-chicago-m/gps/63a6ed81cfsdb24ad978382e33afaf1926/doctors/junko_takahashi.jpg) no-repeat top; background-size: contain; ">
+                      <p class="dr_name">prof. Junko Takahashi</p>
+                    </div>
+                    <p>specialist på makromolekylärbiologi                    </p>
+                  </div>
+
+                  <div class="dr_item">
+                    <div class="dr_img_body" style="background: url(//hotinfoservice.com/46/vanefist-chicago-m/gps/63a6ed81cfsdb24ad978382e33afaf1926/doctors/elisabeth_scott.jpg) no-repeat top; background-size: contain; ">
+                      <p class="dr_name">
+                          prof. Elisabeth Scott</p>
+                    </div>
+                    <p>specialist på tillämpad genetik</p>
+                  </div>
+                </div>
+
+                <div class="section_item">
+                  <h2>Den gör en smalare 5 gånger snabbare, enklare och säkrare än en svältkur</h2>
+                  <p>
+                    Människokroppen är byggd för att äta. Det är enkelt och självklart – det är från mat som energi för organ-, muskel- och hjärnarbetet kommer. Om vi plötsligt börjar stressa kroppen med en bantningsdiet, så <strong>agerar vi mot människans natur</strong>. Vi spolar ut vitaminer och mikroelement och på så sätt försvagar vi den. Kroppen tappar energi vilket leder till trötthet, irritation och sömnighet.                  </p>
+                    <p>
+                        För att inte nämna det faktum att diet är en konstant hunger, uppoffringar och dåligt samvete när man frestas av något "förbjudet". Då kommer "diet-" och "FIT"-produkter till vår undsättning men <strong>OBSERVERA!</strong> Dessa produkter skiljer sig bara med texten på förpackningen men de är upp till 3 gånger dyrare. Vad som är värre: även om vi överlever besväret med en svältkur, är viktminskningseffekten fortfarande ringa i 96% av fallen.                    </p>
+                </div>
+
+                <div class="section_item">
+                  <h2>I stället för att göra en smalare förstör dieten hälsan, tar pengar och livsenergi...</h2>
+                  <p>
+                      Den här tesen, som bekräftats av forskare utom all tvivel, fick prof. Whitford att utveckla en formel som automatiskt bränner fett och som är <strong>naturlig, effektiv och säker.</strong> Målet var att befria mänskligheten från överviktsepidemin som sprider sig och bedrägerier av "FIT"-mats producenter.                  </p>
+                  <p>
+                    Prof. Whitford utnämnde de bästa forskarna på Institut för Överviktsförebyggande till att påbörja undersökningar. Efter över två år av intensivt laboratoriearbete och tester utvecklade gruppen QA2-duocytformeln – som det visade sig – initierar automatisk fettförbränning och får en att automatiskt gå ner 15 kg på 30 dagar.                  </p>
+                  <div style="background-color: #f5f5f5; padding: 10px;">
+                    <p><strong>Under konferensen sammanfattade prof. Whitford kort formelns effekter:</strong></p>
+
+                    <p>Efter att man tillfört den kroppen, når den på ett intelligent sätt varje fettcell i kroppen och <strong>bryter ned den på ett naturligt sätt till en energienhet samt två lättutsöndrade ämnen: vatten och koldioxid.</strong> Det innebär att allt övermåligt fett omvandlas till livsnödvändig energi och avfallen utsöndras med urin och andas ut men luften.</p>
+
+                      <p>Följden blir att trötthet, sömnighet och apati försvinner. Vi har mer kraft, musklerna och hjärnan fungerar bättre. Dessutom går sjukdomar som förknippas med övervikt över: överdriven svettning och sömnapné försvinner, led- och ryggsmärtor går över, <strong>och risken för hjärtsjukdomar, hjärtinfarkt eller stroke minskar med 96%.</strong> Dessutom fungerar kroppen normalt, som vanligt. Enkelt?</p>
+                      <p>Ja, det är som det låter. Men syntesen av föreningen som skulle utlösa denna process var endast möjlig med användning av de mest tekniskt avancerade apparaterna. Lyckligtvis är det möjligt nu på 2000-talet. Detta är ett stort steg framåt för mänskligheten.</p>
+
+                  </div>
+
+                  <p>Sedan demonstrerade professorn resultaten av QA2-duocytformelns tester. Den detaljerade medicinska analysen av testgruppens fall tog 2 timmar under konferensen. Därför presenterar vi dem bara i korthet.</p>
+                </div>
+
+                <div class="section_item">
+                  <h2>Nu kan var och en gå ner i vikt utan uppoffringar eftersom kuren med QA2-duocytformeln:</h2>
+
+                    
+                        <div class="description_green">
+                            <div class="description_green__item">
+                                <h2 class="title__green">GÖR EN SMALARE MED 15 KG PÅ 30 DAGAR</h2>
+                                <p class="description_green__text">
+                                    Formeln garanterar viktminskning med en hastighet av 15 kg på 30 dagar för alla – oavsett ålder, kön samt varför och hur länge övervikt finns till. Det är en <strong>5 gånger snabbare, enklare och säkrare</strong> lösning än en magsäcksoperation, hårda dieter och slitsam gymträning.                                </p>
+                            </div>
+                        </div>
+
+                    
+                        <div class="description_green">
+                            <div class="description_green__item">
+                                <h2 class="title__green">AUTOMATISKT BRÄNNER FETT 24 TIMMAR OM DYGNET</h2>
+                                <p class="description_green__text">
+                                    Formeln bryter ner varje fettcell på ett intelligent sätt. Den släpper sedan från den energi som kroppen använder för bättre funktion: musklerna får styrka, trötthet och sömnighet försvinner och hjärnan arbetar snabbare. Avfallen i form av vatten och koldioxid utsöndras från kroppen i urinen och andas ut med luften. Denna process fortsätter <strong>oavsett kost, livsstil eller medicin som man tar</strong>. Allt sker spontant, även under sömn eller avkoppling.                                </p>
+                            </div>
+                        </div>
+
+                    
+                        <div class="description_green">
+                            <div class="description_green__item">
+                                <h2 class="title__green">ÅTERGER HÄLSAN OCH GER 5 GÅNGER MER ENERGI</h2>
+                                <p class="description_green__text">
+                                    Med viktminskning förbättras hälsan och kroppens kondition. Smärtor i lederna, ryggraden och musklerna försvinner. Sömnapné, överdriven svettning och konstant trötthet går över. Sockernivån återgår till en normal nivå tack vare vilket risken för att utveckla diabetes minskar med 87%. Kolesterolnivån stabiliseras så risken för åderförkalkning minimeras med 94%. På så sätt reduceras <strong> risken för hjärtinfarkt, hjärninfarkt och stroke med så mycket som 96%</strong>. Kroppen får minst 5 gånger mer energi.                                </p>
+                            </div>
+                        </div>
+
+                    
+                        <div class="description_green">
+                            <div class="description_green__item">
+                                <h2 class="title__green">BEFRIAR FRÅN UTSEENDEKOMPLEX</h2>
+                                <p class="description_green__text">
+                                    Att få en smal kropp förebådar slutet på utseendekomplex. Testdeltagarna medger att de har blivit av med skam och <strong>utan stress kan de avslöja sin attraktiva kropp</strong> på stranden, poolen eller framför sin partner i sovrummet. De har inte längre problem med att välja kläder eftersom de kan välja mellan en rad mindre storlekar – i varje av dem ser de utmärkt ut. De av de undersökta som drabbades av depression på grund av fetma, började äntligen älska sin kropp och njuta av livet igen.                                </p>
+                            </div>
+                        </div>
+
+                    
+                        <div class="description_green">
+                            <div class="description_green__item">
+                                <h2 class="title__green">BEGRÄNSAR JOJOBANTNING</h2>
+                                <p class="description_green__text">
+                                    Formeln gör en smalare en gång för alla och blockerar viktökning i framtiden. Hur är det möjligt? Användningen av formeln fungerar nämligen som <strong>ett vaccin mot övervikt.</strong> Allt tack vare det att den "programmerar" kroppen för att automatiskt, snabbt och naturligt bryta ner onödiga fettceller redan på DNA-nivån. Tack vare detta garanterar den att de hatade kilona aldrig kommer tillbaka - oavsett kost, livsstil eller medicin som man tar.                                </p>
+                            </div>
+                        </div>
+
+                    
+                        <div class="description_green">
+                            <div class="description_green__item">
+                                <h2 class="title__green">MERVÄRDE: RENING FRÅN GIFTER</h2>
+                                <p class="description_green__text">
+                                    Formeln <strong>sköljer ur kroppen farliga avlagringar, toxiner och tungmetaller</strong> på ett naturligt sätt. Det innebär att den skyddar mot gastriska problem, smältningsproblem, matallergier och hudallergier, tappande av hår samt alla andra effekterna av högt giftinnehåll i kroppen.                                </p>
+                            </div>
+                        </div>
+
+                    
+                </div>
+
+                <div class="section_item">
+                  <h2>Redan 12 000 människor fick en smal kropp, befriade sig från komplex och återfick hälsan tack vare QA2-duocytformeln</h2>
+
+                  <p>
+                    Efter föreläsningen av prof. Edward M. Whitford intervjuade vi de testdeltagare som var närvarande på konferensen och som hade genomgått kuren med QA2-duocytformeln och idag är smala, friska och lyckliga. Samtalen var långa och därför översatte vi korta fragment till svenska.                  </p>
+                </div>
+
+
+
+                <div class="section_item quote_body">
+
+                                      <div class="quote_body_item d_flex">
+                        <div class="quote_description">
+                      <a href="//hotinfoservice.com/46/vanefist-chicago-m/gps/bc373ed4e9sd4790dcd8c2ce0ee2596c56/testimonials/1.jpg" data-lightbox="quotes"><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/bc373ed4e9sd4790dcd8c2ce0ee2596c56/testimonials/1.jpg" /></a>
+
+                        <h3 class="quote_description__title">Jag var en börda för mina nära och kära. Jag var rädd för att jag skulle dö ensam... Med den här formeln tappade jag 42 kg, återfick min hälsa, lycka och familjens respekt!</h3>
+                        <p class="quote_text">För några månader sedan tjuvlyssnade jag min son och min svärdotter bråka. Hon skrek: "Hon är så fet att hon knappt flyttar på sig, jag tänker inte låta henne passa barnen! Hitta ett billigt äldreboende för henne!" Jag grät hela veckan. Jag ville inte att de skulle ge mig bort. Prof. Whitfords kur var en räddning. <strong>Det räckte att jag satte ett litet plåster på magen eller stjärtan en gång om dagen och jag tappade 15 kg på 1 månad.</strong> Jag känner mig utmärkt. Jag rör på mig äntligen utan smärta. Jag är inte längre den farmor till barnbarnen som bara sitter i en fåtölj och klagar. Och jag har så mycket energi att leka och spela apa med dem! Svärdottern bad mig om ursäkt. Gud välsigne prof. Whitford och hans forskare!</p>
+                        <p class="quote_text"><b>Michelle Davis, 68 år, Santa Monica – tappade 42 kg</b></p>
+                      </div>
+                    </div>
+                                      <div class="quote_body_item d_flex">
+                        <div class="quote_description">
+                      <a href="//hotinfoservice.com/46/vanefist-chicago-m/gps/bc373ed4e9sd4790dcd8c2ce0ee2596c56/testimonials/2.jpg" data-lightbox="quotes"><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/bc373ed4e9sd4790dcd8c2ce0ee2596c56/testimonials/2.jpg" /></a>
+
+                        <h3 class="quote_description__title">Jag kastade bort 7 000 dollar för dietister och tränare och sedan blev ännu fetare av jojobantning. Bara tack vare denna formel gick jag ner i vikt en gång för alla!</h3>
+                        <p class="quote_text">För pengarna som jag spenderade på att gå ner i vikt skulle jag ha en schysst bil. Jag blåstes att svältkurer från dietister eller slit hos tränare skulle hjälpa. Jag gick ner i vikt för ett ögonblick och sedan gick jag upp i vikt ännu snabbare och ännu mer! <strong>QA2-duocytformeln återgav mig min smala kropp på 3 veckor.</strong> Jag gjorde ingenting och fettet smälte bokstavligen från mig. Och viktigast av allt – jag har rätt vikt. Om jag bara hade kunnat ta denna kur tidigare, skulle jag ha sparat mycket pengar.</p>
+                        <p class="quote_text"><b>John Miller, 46 år, South Gate – tappade 17 kg</b></p>
+                      </div>
+                    </div>
+                                      <div class="quote_body_item d_flex">
+                        <div class="quote_description">
+                      <a href="//hotinfoservice.com/46/vanefist-chicago-m/gps/bc373ed4e9sd4790dcd8c2ce0ee2596c56/testimonials/3.jpg" data-lightbox="quotes"><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/bc373ed4e9sd4790dcd8c2ce0ee2596c56/testimonials/3.jpg" /></a>
+
+                        <h3 class="quote_description__title">De gav mig inte den minsta chansen att jag skulle gå ner i vikt. Jag bevisade för alla att det är möjligt!</h3>
+                        <p class="quote_text">Jag såg ut som en äcklig val. Hängande mage, stora lår och stjärtar. Plus celluliter, bristningar och finnar, överallt... Jag kunde inte rymmas på bussitsen för att inte säga något om kläder som gick upp i sömmen på mig... Hur kunde jag vara lycklig? Det var inte möjligt att leva på så sätt... Ingen trodde att jag skulle gå ner i vikt och jag hade inget hopp om det själv, men... den här formeln gjorde det åt mig!!! Jag gjorde ingenting, jag levde som vanligt och vågen visade färre kilon med varje dag som gick. <strong>Jag gick ner i vikt medan jag sov, tittade på TV, satt vid skrivbordet på jobbet.</strong> Och så efter 2 månader tappade jag 22 kg! Människor tror att jag hade en magoperation eller några andra mirakel... Men det viktigaste är att jag ser allt bättre ut och håller på att gå ner i vikt. Hälsosamt, naturligt och utan uppoffringar. Tack!</p>
+                        <p class="quote_text"><b>Cristina Taylor, 38 år, Burbank – tappade 22 kg</b></p>
+                      </div>
+                    </div>
+                                      <div class="quote_body_item d_flex">
+                        <div class="quote_description">
+                      <a href="//hotinfoservice.com/46/vanefist-chicago-m/gps/bc373ed4e9sd4790dcd8c2ce0ee2596c56/testimonials/4.jpg" data-lightbox="quotes"><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/bc373ed4e9sd4790dcd8c2ce0ee2596c56/testimonials/4.jpg" /></a>
+
+                        <h3 class="quote_description__title">Diet och träning tog bara knäcken på mig och denna kur gjorde ett underverk!</h3>
+                        <p class="quote_text">Jag är en ensamstående mamma. Jag ville gå ner i vikt så att jag äntligen kunde ta på mig något fint på en dejt. Lära känna någon. Leva ett normalt liv och inte bara tortera mig själv med tanken på fruktansvärda fettvalkar. Jag tränade 2 timmar om dagen i en vecka, jag åt bara äpplen, kli och yoghurt. Jag trodde att jag skulle dö av hunger och utmattning. Och? Jag tappade ett halvt kilo! Jag var förtvivlad... Lyckligtvis anmälde mig min vän till testgruppen med denna formel. Jag kunde inte tro mina ögon <strong>när jag vägde 4 kg mindre</strong> efter 1 vecka. Jag tränade inte alls och åt ännu mer än vanligt. Dessa forskare är mirakelarbetare!</p>
+                        <p class="quote_text"><b>Courtney Harris, 41 år, Los Angeles – tappade 23 kg</b></p>
+                      </div>
+                    </div>
+                                      <div class="quote_body_item d_flex">
+                        <div class="quote_description">
+                      <a href="//hotinfoservice.com/46/vanefist-chicago-m/gps/bc373ed4e9sd4790dcd8c2ce0ee2596c56/testimonials/5.jpg" data-lightbox="quotes"><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/bc373ed4e9sd4790dcd8c2ce0ee2596c56/testimonials/5.jpg" /></a>
+
+                        <h3 class="quote_description__title">Jag gick ner i vikt efter min graviditet!</h3>
+                        <p class="quote_text">Efter graviditeten fick jag 25 kg och kunde absolut inte bli av med dem. Min man började kalla mig "munk". Jag blev arg på det för jag såg att jag inte längre var attraktiv för honom. Han började titta på smala tjejer. Sedan tog jag saken i egna händer och anslöt mig till testgruppen av prof. Whitfords formel. <strong>Jag åt vad jag ville och tränade inte alls och på 2 månader fick jag en platt mage, smala lår och fasta stjärtar.</strong> Jag gick ner i vikt till storlek S och jag ÄLSKAR att presentera min nya kropp med passande kläder!</p>
+                        <p class="quote_text"><b>Rachel Wilson, 36 år, Inglewood – tappade 25 kg</b></p>
+                      </div>
+                    </div>
+                                      <div class="quote_body_item d_flex">
+                        <div class="quote_description">
+                      <a href="//hotinfoservice.com/46/vanefist-chicago-m/gps/bc373ed4e9sd4790dcd8c2ce0ee2596c56/testimonials/6.jpg" data-lightbox="quotes"><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/bc373ed4e9sd4790dcd8c2ce0ee2596c56/testimonials/6.jpg" /></a>
+
+                        <h3 class="quote_description__title">I en smal, sund kropp – en frisk själ!</h3>
+                        <p class="quote_text">Läkaren började hota mig att om jag skulle vara så fet vidare och ha så högt kolesterol, skulle jag inte leva länge. Jag skulle inte leva så länge att se mina barnbarn. Jag var livrädd men vad kunde jag göra? Äta bara sallad och hoppa x-hopp? Lyckligtvis kom forskare på denna formel. Bara det gjorde mig smal. <strong>Jag skrattar att jag gick ner i vikt medan jag låg framför TV:n.</strong> Om människor vill tortera sig själva med träning och dieter, låt dem tortera sig själva. Jag föredrar smartare metoder. Jag har normalt kolesterol, knäna gör inte längre ont och jag ser mycket bättre ut.</p>
+                        <p class="quote_text"><b>Simon Anderson, 63 år, Los Angeles – tappade 28 kg</b></p>
+                      </div>
+                    </div>
+                  
+                </div>
+
+                <div class="section_item">
+                  <p>Upptäckten av formeln som automatiskt bränner 15 kg på 30 dagar är en revolution i bantning. Men det vore ingen mening att skriva om denna sensation om denna formel inte skulle testas i Sverige. Därför är den bästa nyheten att...</p>
+
+                  <h2>Man kan gå ner 15 kg på 30 dagar säkert, utan diet och träning – nu även i Sverige                  </h2>
+
+                  <p>
+                      Kuren med duocytformeln QA2 som självständigt förbränner fett är redan tillgängligt i form av brustabletter som kallas Vanefist Neo. Man vet inte än när eller om de kommer vara tillgänglig på de svenska apotekshyllorna. Därför har cheferna i vår fond <i>Sanus mandu</i> - Barbro Pettersson och Markus Fläng, tagit sig an att                  </p>
+
+                  <p>Du kan få den via Internet för deltagandet i rabattklubben och med tilläggsfinansiering till deltagandet <strong>1243 SEK billigare</strong>. Tilläggsfinansieringen är tillgänglig för svenska medborgare födda efter år 1945.</p>
+
+                </div>
+
+                <div class="section_item warning">
+                  <p>
+                      <strong class="warning_uppercase"><span class="color_red">OBS:</span> VIKTIG UPPDATERING</strong><br/> På grund av det enorma intresset för kuren Vanefist Neo kommer de sista stycken som är tillgängliga inom tilläggsfinansieringen till deltagandet i rabattsklubben <strong>att löpa ut <script>dtime(0,1)</script></strong>. Nästa parti Vanefist Neo (som inte täcks av tilläggsfinansieringen till deltagandet i rabattklubben) är planerat maj 2021.                      </p>
+                </div>
+
+                <div class="section_item">
+                  <h2><a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=12&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19">För att gå ner 15 kg på 30 dagar utan diet och träning, klicka här >></a></h2>
+                </div>
+
+                <div class="section_item">
+                  <hr>
+                  <h2>KOMMENTARER (867 kommentarer)</h2>
+                  <p>Läs kommentarer till artikeln "Första formeln som sätter igång kroppens automatiska fettförbränning har uppfunnits"</p>
+                  <hr>
+                </div>
+
+                <div class="section_item comments_body">
+                  
+                    <div class="d_flex comment">
+                      <div class="image"><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/3812c75c52sd07f4e9f455158f4a695719/comments/Katarzyna-Grabecka.jpg" alt=""></div>
+                      <div class="comment_text_body">
+                        <div>
+                          <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+                              <span><span class="username"><a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=13&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19">Katarina Gustavsson</a></span> <i style="color: #adadad">(verifierad användare)</i></span>
+                            <div class="rate">
+                              <div class="like">
+                                <img style="height: 1.7em" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/like.png" alt="" />
+                                <span>44</span>
+                              </div>
+                              <div class="dislike">
+                                <img style="height: 1.7em" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/dislike.png" alt="" />
+                                <span>0</span>
+                              </div>
+                            </div>
+                          </div>
+                          <span>12.05.2019</span>
+                        </div>
+                        <p>Jag vill tacka artikelns författare, just nu väntar jag på en försändelse med kuren:)</p>
+                          
+                                              </div>
+                    </div>
+                  
+                    <div class="d_flex comment">
+                      <div class="image"><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/avatar.jpg" alt=""></div>
+                      <div class="comment_text_body">
+                        <div>
+                          <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+                              <span><span class="username"><a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=14&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19">Arne Hansson</a></span> </span>
+                            <div class="rate">
+                              <div class="like">
+                                <img style="height: 1.7em" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/like.png" alt="" />
+                                <span>0</span>
+                              </div>
+                              <div class="dislike">
+                                <img style="height: 1.7em" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/dislike.png" alt="" />
+                                <span>8</span>
+                              </div>
+                            </div>
+                          </div>
+                          <span>12.05.2019</span>
+                        </div>
+                        <p>är ni säkra på att ni inte är för optimistiska? det fanns så många artiklar, reklamer för olika preparat som skulle göra underverk... jag är skeptisk...</p>
+                          
+                        
+                          <div class="comment_sub is-700-hide">
+                            <div class="d_flex comment">
+                              <div class="image"><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/avatar.jpg" alt=""></div>
+                              <div class="comment_text_body">
+                                <div>
+                                  <div style="display: flex; align-items: center; justify-content: space-between;">
+                                      <span><span class="username"><a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=15&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19">Märta Åkesson</a></span> <i style="color: #adadad">(verifierad användare)</i></span>
+                                    <div class="rate">
+                                      <div class="like">
+                                        <img style="height: 1.7em" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/like.png" alt="" />
+                                        <span>16</span>
+                                      </div>
+                                      <div class="dislike">
+                                        <img style="height: 1.7em" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/dislike.png" alt="" />
+                                        <span>0</span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <span>12.05.2019</span>
+                                </div>
+                                <p><a href="">@Arne Hansson</a> Viktoria (författaren till artikeln) är ju en opartisk person här, hon har varit aktiv i vår stiftelse i 4 år nu och hon skrev artikeln SAKLIGT. På nästa sida har du också resultaten från institutets OBEROENDE underökningar och de var lika skeptiska som du, och sen gav amerikanerna rätt :) vi har äntligen "ett motgift" mot fetma, det är mänsklighetens enorma framsteg och vi är glada över att vi har levt för att se de tiderna!!!</p>
+
+                                                              </div>
+                            </div>
+                          </div>
+                                              </div>
+                    </div>
+                  
+                    <div class="d_flex comment">
+                      <div class="image"><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/avatar.jpg" alt=""></div>
+                      <div class="comment_text_body">
+                        <div>
+                          <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+                              <span><span class="username"><a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=16&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19">Anna Martinsson</a></span> <i style="color: #adadad">(verifierad användare)</i></span>
+                            <div class="rate">
+                              <div class="like">
+                                <img style="height: 1.7em" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/like.png" alt="" />
+                                <span>25</span>
+                              </div>
+                              <div class="dislike">
+                                <img style="height: 1.7em" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/dislike.png" alt="" />
+                                <span>0</span>
+                              </div>
+                            </div>
+                          </div>
+                          <span>12.05.2019</span>
+                        </div>
+                        <p>när jag stod i kö till läkaren igår hittade jag ett pressmeddelande om denna konferens i väntrummet och det fanns också testresultat och flera berättelser om människor som gick ner i vikt tack vare denna kur. Verkligen fantastiskt</p>
+                          
+                                              </div>
+                    </div>
+                  
+                    <div class="d_flex comment">
+                      <div class="image"><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/3812c75c52sd07f4e9f455158f4a695719/comments/Zygmunt-Rawicki.jpg" alt=""></div>
+                      <div class="comment_text_body">
+                        <div>
+                          <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+                              <span><span class="username"><a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=17&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19">Peter Åström</a></span> <i style="color: #adadad">(verifierad användare)</i></span>
+                            <div class="rate">
+                              <div class="like">
+                                <img style="height: 1.7em" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/like.png" alt="" />
+                                <span>52</span>
+                              </div>
+                              <div class="dislike">
+                                <img style="height: 1.7em" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/dislike.png" alt="" />
+                                <span>0</span>
+                              </div>
+                            </div>
+                          </div>
+                          <span>12.05.2019</span>
+                        </div>
+                        <p>äntligen några goda nyheter i denna fråga, Viktoria, tack för artikeln</p>
+                          
+                                              </div>
+                    </div>
+                  
+                    <div class="d_flex comment">
+                      <div class="image"><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/3812c75c52sd07f4e9f455158f4a695719/comments/Daria-Zdunska.jpg" alt=""></div>
+                      <div class="comment_text_body">
+                        <div>
+                          <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+                              <span><span class="username"><a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=18&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19">Lisa Nyman</a></span> <i style="color: #adadad">(verifierad användare)</i></span>
+                            <div class="rate">
+                              <div class="like">
+                                <img style="height: 1.7em" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/like.png" alt="" />
+                                <span>15</span>
+                              </div>
+                              <div class="dislike">
+                                <img style="height: 1.7em" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/dislike.png" alt="" />
+                                <span>0</span>
+                              </div>
+                            </div>
+                          </div>
+                          <span>12.05.2019</span>
+                        </div>
+                        <p>Hej alla! Min vän Bettan är på plats i USA 20 km nära LA och hon har redan testat denna kur på sig själv och säger att hon tappade 7 kg efter 2 veckor! Hon tappade mer än 30 kilo efter hela kuren... hon säger att hon inte ändrade sin kost eller livsstil alls och hon mår bra, det fanns ingen jojobantning, jag lägger ut hennes bilder före och efter kuren som hon skickade mig:</p>
+                                                        <div style="display: flex; justify-content: center;">
+                                  <img style="width: 80%;" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/Daria-Zdunska-PRZED-PO-komentarz.jpg" alt="" />
+                              </div>
+                          
+                                              </div>
+                    </div>
+                  
+                    <div class="d_flex comment">
+                      <div class="image"><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/avatar.jpg" alt=""></div>
+                      <div class="comment_text_body">
+                        <div>
+                          <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+                              <span><span class="username"><a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=19&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19">Mona Gunnarsson</a></span> <i style="color: #adadad">(verifierad användare)</i></span>
+                            <div class="rate">
+                              <div class="like">
+                                <img style="height: 1.7em" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/like.png" alt="" />
+                                <span>33</span>
+                              </div>
+                              <div class="dislike">
+                                <img style="height: 1.7em" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/dislike.png" alt="" />
+                                <span>0</span>
+                              </div>
+                            </div>
+                          </div>
+                          <span>12.05.2019</span>
+                        </div>
+                        <p>att de inte än skriker om det på TV. Otroligt...</p>
+                          
+                        
+                          <div class="comment_sub is-700-hide">
+                            <div class="d_flex comment">
+                              <div class="image"><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/3812c75c52sd07f4e9f455158f4a695719/comments/Ilona-Kupisz.jpg" alt=""></div>
+                              <div class="comment_text_body">
+                                <div>
+                                  <div style="display: flex; align-items: center; justify-content: space-between;">
+                                      <span><span class="username"><a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=20&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19">Inga Blom</a></span> <i style="color: #adadad">(verifierad användare)</i></span>
+                                    <div class="rate">
+                                      <div class="like">
+                                        <img style="height: 1.7em" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/like.png" alt="" />
+                                        <span>17</span>
+                                      </div>
+                                      <div class="dislike">
+                                        <img style="height: 1.7em" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/dislike.png" alt="" />
+                                        <span>0</span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <span>12.05.2019</span>
+                                </div>
+                                <p><a href="">@Mona Gunnarsson</a> för det är fortfarande en ny sak... Tänk vilken tur det är att de inte arbetade för något farmaceutiskt företag eller något liknande... Eftersom de skulle beröva dem patentet och sälja kuren för stora pengar. Även om det inte är klart vad som kommer att hända kan det bli dyrt snart. Jag använder den snabbt så länge man kan få det här preparatet så billigt! :)</p>
+
+                                
+                                  <div class="comment_sub">
+                                    <div class="d_flex comment">
+                                      <div><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/avatar.jpg" alt=""></div>
+                                      <div class="comment_text_body">
+                                        <div>
+                                          <div style="display: flex; align-items: center; justify-content: space-between;">
+                                              <span class="username"><a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=21&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19">Maj Danielsson</a></span>
+                                            <div class="rate">
+                                              <div class="like">
+                                                <img style="height: 1.7em;" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/like.png" alt="" />
+                                                <span>7</span>
+                                              </div>
+                                              <div class="dislike">
+                                                <img style="height: 1.7em;" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/dislike.png" alt="" />
+                                                <span>0</span>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <span>12.05.2019</span>
+                                        </div>
+                                        <p><a href="">@Inga Blom</a> du har rätt att man måste skynda sig, pengar styr världen och snart kommer någon att tjäna på det</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                                              </div>
+                            </div>
+                          </div>
+                                              </div>
+                    </div>
+                  
+                    <div class="d_flex comment">
+                      <div class="image"><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/avatar.jpg" alt=""></div>
+                      <div class="comment_text_body">
+                        <div>
+                          <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+                              <span><span class="username"><a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=22&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19">Maria Blomkvist</a></span> <i style="color: #adadad">(verifierad användare)</i></span>
+                            <div class="rate">
+                              <div class="like">
+                                <img style="height: 1.7em" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/like.png" alt="" />
+                                <span>48</span>
+                              </div>
+                              <div class="dislike">
+                                <img style="height: 1.7em" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/dislike.png" alt="" />
+                                <span>0</span>
+                              </div>
+                            </div>
+                          </div>
+                          <span>12.05.2019</span>
+                        </div>
+                        <p>Min mamma är sjukligt överviktig och har därför sömnapné, jag är väldigt rädd för henne för alla vet vad det kan leda till... :( och hon kan inte träna eftersom hennes ryggrad gör ont. äntligen lite hopp!</p>
+                          
+                                              </div>
+                    </div>
+                  
+                    <div class="d_flex comment">
+                      <div class="image"><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/3812c75c52sd07f4e9f455158f4a695719/comments/Aldona-Pozniak.jpg" alt=""></div>
+                      <div class="comment_text_body">
+                        <div>
+                          <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+                              <span><span class="username"><a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=23&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19">Frida Ström</a></span> <i style="color: #adadad">(verifierad användare)</i></span>
+                            <div class="rate">
+                              <div class="like">
+                                <img style="height: 1.7em" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/like.png" alt="" />
+                                <span>13</span>
+                              </div>
+                              <div class="dislike">
+                                <img style="height: 1.7em" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/dislike.png" alt="" />
+                                <span>0</span>
+                              </div>
+                            </div>
+                          </div>
+                          <span>12.05.2019</span>
+                        </div>
+                        <p>jag har varit hos över ett dussin dietister och tränare för att gå ner i vikt och vad?ingenting, vågen rörde sig inte alls. jag kastade bara pengar i sjön. Så det vore dumt att inte prova det, utseende är bara utseende, men övervikt tar bort hälsan....</p>
+                          
+                                              </div>
+                    </div>
+                  
+                    <div class="d_flex comment">
+                      <div class="image"><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/3812c75c52sd07f4e9f455158f4a695719/comments/Wieslaw-Potocki.jpg" alt=""></div>
+                      <div class="comment_text_body">
+                        <div>
+                          <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+                              <span><span class="username"><a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=24&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19">Marcus Sandberg</a></span> <i style="color: #adadad">(verifierad användare)</i></span>
+                            <div class="rate">
+                              <div class="like">
+                                <img style="height: 1.7em" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/like.png" alt="" />
+                                <span>29</span>
+                              </div>
+                              <div class="dislike">
+                                <img style="height: 1.7em" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/dislike.png" alt="" />
+                                <span>0</span>
+                              </div>
+                            </div>
+                          </div>
+                          <span>12.05.2019</span>
+                        </div>
+                        <p>jag följer amerikanska hälsoportaler och tittade även på filmer från den här konferensen för några dagar sedan. De forskarna har uppnått en otrolig framgång, chapeau bas!</p>
+                          
+                                              </div>
+                    </div>
+                  
+                    <div class="d_flex comment">
+                      <div class="image"><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/avatar.jpg" alt=""></div>
+                      <div class="comment_text_body">
+                        <div>
+                          <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+                              <span><span class="username"><a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=25&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19">Gun Dahl</a></span> <i style="color: #adadad">(verifierad användare)</i></span>
+                            <div class="rate">
+                              <div class="like">
+                                <img style="height: 1.7em" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/like.png" alt="" />
+                                <span>23</span>
+                              </div>
+                              <div class="dislike">
+                                <img style="height: 1.7em" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/dislike.png" alt="" />
+                                <span>0</span>
+                              </div>
+                            </div>
+                          </div>
+                          <span>12.05.2019</span>
+                        </div>
+                        <p>då ska jag testa det – jag undrar att man kan få det så billigt... men jag har inte sett några negativa recensioner än</p>
+                          
+                                              </div>
+                    </div>
+                  
+                    <div class="d_flex comment">
+                      <div class="image"><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/avatar.jpg" alt=""></div>
+                      <div class="comment_text_body">
+                        <div>
+                          <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+                              <span><span class="username"><a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=26&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19">Patrik Lindholm</a></span> <i style="color: #adadad">(verifierad användare)</i></span>
+                            <div class="rate">
+                              <div class="like">
+                                <img style="height: 1.7em" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/like.png" alt="" />
+                                <span>14</span>
+                              </div>
+                              <div class="dislike">
+                                <img style="height: 1.7em" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/dislike.png" alt="" />
+                                <span>0</span>
+                              </div>
+                            </div>
+                          </div>
+                          <span>12.05.2019</span>
+                        </div>
+                        <p>jag trodde att det inte längre fanns någon chans för mig och att jag skulle vara fet som en val för resten av mitt liv, men titta, en sådan nyhet! Tack för dessa publikationer!!</p>
+                          
+                                              </div>
+                    </div>
+                  
+                    <div class="d_flex comment">
+                      <div class="image"><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/3812c75c52sd07f4e9f455158f4a695719/comments/Joanna-Filipiuk.jpg" alt=""></div>
+                      <div class="comment_text_body">
+                        <div>
+                          <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+                              <span><span class="username"><a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=27&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19">Josefin Forsberg</a></span> <i style="color: #adadad">(verifierad användare)</i></span>
+                            <div class="rate">
+                              <div class="like">
+                                <img style="height: 1.7em" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/like.png" alt="" />
+                                <span>26</span>
+                              </div>
+                              <div class="dislike">
+                                <img style="height: 1.7em" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/dislike.png" alt="" />
+                                <span>0</span>
+                              </div>
+                            </div>
+                          </div>
+                          <span>12.05.2019</span>
+                        </div>
+                        <p>Jag hann få tilläggsfinansiering. Nu väntar jag på fösändelsen och efter en tid ska jag informera om mina resultat :-)</p>
+                          
+                                              </div>
+                    </div>
+                                  </div>
+
+                <div class="section_item">
+                  <hr>
+                  <h3 class="text_right">För att lägga till en kommentar,                      <a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=28&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19" target="_blank">logga in >></a></h3>
+                  <hr>
+                </div>
+
+                <h2><a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=29&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19">För att gå ner 15 kg på 30 dagar utan diet och träning, klicka här >></a></h2>
+              </div>
+            </div>
+
+            <div class="sidebar">
+              <div style="margin-top: 60px;">
+                <div class="weather">
+                  <h2 class="title">Väder</h2>
+                  <a href="http://www.accuweather.com/" class="aw-widget-legal"></a>
+<div id="awtd1383134730488" class="aw-widget-36hour" data-locationkey="" data-unit="c" data-language="sv" data-useip="true" data-uid="awtd1383134730488" data-editlocation="true"></div>
+<script type="text/javascript" src="https://oap.accuweather.com/launch.js"></script>
+<script type="text/javascript">document.getElementById('awtd1383134730488').onclick = function(){return false;};</script>
+<link rel="stylesheet" type="text/css" href="//hotinfoservice.com/46/vanefist-chicago-m/gps/7c769be848sd1574253c3d3bcad4b9c18c/weather/modern.css"/>                </div>
+              </div>
+
+              <div class="author">
+                <h2 class="title">Artikelns författare:</h2>
+                <div class="author_img_body">
+                  <img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/6f487f8572sdb6598f21ee1e98bbfa9d55/author.png" alt="">
+                </div>
+                <div class="author_description_body">
+                  <h3 class="author_description_name">Viktoria Sandström</h3>
+                  <p class="author_description">
+                  Student i medicinska vetenskaper med specialisering i dietetik och förebyggande av fetma, årskurs 5. Hennes avhandling "Påverkan av leptinimmuniteten på fettcellernas avfettning i blodcirkulationssystemet" bedömdes så högt att universitetsmyndigheterna överväger att ge författaren doktorstitel parallellt med magisterexamen. Hon har varit knuten med stiftelsen "<span>Sanus mandu</span> – gå ner i vikt för hälsa" sedan 2015, där hon redigerar pressartiklar, testar och skriver recensioner av nya viktminskningsmetoder och ordnar workshopar för överviktiga människor.                  </p>
+                </div>
+              </div>
+
+              <div class="sidebar_section_1">
+                <p class="sidebar_section_1_title_1">Anslut dig till</p>
+                <p class="sidebar_section_1_title_2">Sanus mandu</p>
+                <p class="sidebar_section_1_p">Följ de nyaste upptäckterna i bekämpning av övervikt.</p>
+                <a href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=30&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19">Få reda på mer</a>
+              </div>
+
+              <div class="news">
+                <h3>Mest lästa den här veckan:</h3>
+                                  <div class="d_flex news_item">
+                    <div class="d_flex">
+                      <div><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/87217041bcsd47afffec63bbbf43cb2c8a/articles/1.jpg" alt=""></div>
+                      <div><p class="news_item_description">Gymkort inte för alla – 400 kr/timme</p></div>
+                    </div>
+                  </div>
+                                  <div class="d_flex news_item">
+                    <div class="d_flex">
+                      <div><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/87217041bcsd47afffec63bbbf43cb2c8a/articles/2.jpg" alt=""></div>
+                      <div><p class="news_item_description">[VIKTIGT] fetma leder till kranskärlssjukdom</p></div>
+                    </div>
+                  </div>
+                                  <div class="d_flex news_item">
+                    <div class="d_flex">
+                      <div><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/87217041bcsd47afffec63bbbf43cb2c8a/articles/3.jpg" alt=""></div>
+                      <div><p class="news_item_description">Mormors metoder för snabbare ämnesomsättning – prova de här 3 örterna</p></div>
+                    </div>
+                  </div>
+                                  <div class="d_flex news_item">
+                    <div class="d_flex">
+                      <div><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/87217041bcsd47afffec63bbbf43cb2c8a/articles/4.jpg" alt=""></div>
+                      <div><p class="news_item_description">Leptinimmunitet – hur kan man diagnostisera den, hur kan man hjälpa?</p></div>
+                    </div>
+                  </div>
+                                  <div class="d_flex news_item">
+                    <div class="d_flex">
+                      <div><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/87217041bcsd47afffec63bbbf43cb2c8a/articles/5.jpg" alt=""></div>
+                      <div><p class="news_item_description">Hur kan man effektivt bli av med celluliter? Gör inte de här 4 misstagen!</p></div>
+                    </div>
+                  </div>
+                                  <div class="d_flex news_item">
+                    <div class="d_flex">
+                      <div><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/87217041bcsd47afffec63bbbf43cb2c8a/articles/6.jpg" alt=""></div>
+                      <div><p class="news_item_description">5:e återträff av stiftelsens skyddslingar [fotogalleri]</p></div>
+                    </div>
+                  </div>
+                                  <div class="d_flex news_item">
+                    <div class="d_flex">
+                      <div><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/87217041bcsd47afffec63bbbf43cb2c8a/articles/7.jpg" alt=""></div>
+                      <div><p class="news_item_description">Dukan diet förbjuden av specialister i 9 länder</p></div>
+                    </div>
+                  </div>
+                                  <div class="d_flex news_item">
+                    <div class="d_flex">
+                      <div><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/87217041bcsd47afffec63bbbf43cb2c8a/articles/8.jpg" alt=""></div>
+                      <div><p class="news_item_description">Borde du gå på glutefri diet?</p></div>
+                    </div>
+                  </div>
+                                  <div class="d_flex news_item">
+                    <div class="d_flex">
+                      <div><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/87217041bcsd47afffec63bbbf43cb2c8a/articles/9.jpg" alt=""></div>
+                      <div><p class="news_item_description">Hur kan man förhindra fet avfettningen av inre organ? Intervju med prof. Jane Donovan</p></div>
+                    </div>
+                  </div>
+                                  <div class="d_flex news_item">
+                    <div class="d_flex">
+                      <div><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/87217041bcsd47afffec63bbbf43cb2c8a/articles/10.jpg" alt=""></div>
+                      <div><p class="news_item_description">STOPP för chiafrön! [kampanjrapport]</p></div>
+                    </div>
+                  </div>
+                            </div>
+
+            <a class="banner_a" href="//deal4yousite.com/46/vanefist-chicago-m/gps?lid=31&ac=666&aid=768&l=sv_se&from=6897240414643767101&uid=297624000588671900&int=H7l8Wop5RbafOBarQhp3b17NU6-WMMJdiZ43PCxLVB7LIjqSmhwD9S7CWIlxBg5iPF4CAy3vq8g49A73wObKRA&chk=19" target="_blank">
+              <div class="banner" style="text-align:center">
+                <h2>Specialerbjudande!</h2>
+                <img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/51ad160eb0sd27f8fe0ecced0b9bac86fe/vanefistneo_small.png" alt="" style="width: 80%;">
+                <p>Kolla >></p>
+              </div>
+            </a>
+
+          </div>
+        </section>
+        <footer class="footer">
+          Det är frivilligt att ansluta sig till rabattklubben och <strong>innebär inga dolda avgifter och skyldigheter</strong>. Genom att ansluta sig till klubben får deltagaren tillgång till exklusiva produkter och attraktiva rabatter. De samlade poängen läggs ihop vilket ger möjlighet att byta ut dem mot ytterligare högkvalitativa tjänster.        </footer>
+
+
+                
+
+
+    <script>
+        (function () {
+            CALLBACKS = {
+                onDelay: function (callback) {                       setTimeout(
+                        function () {
+                            callback();
+                        }, 10000
+                    )
+                }
+            };
+
+        })();
+    </script>
+
+    
+    <script type="text/javascript" async>
+        function lazyImgFunc() {
+            var lazyImages = [].slice.call(document.getElementsByClassName("lazy"));
+            if ("IntersectionObserver" in window) {
+                var lazyImageObserver = new IntersectionObserver(function (entries, observer) {
+                    entries.forEach(function (entry) {
+                        if (entry.isIntersecting) {
+                            var lazyImage = entry.target;
+                            lazyImage.src = lazyImage.dataset.src;
+                            lazyImage.srcset = lazyImage.dataset.srcset;
+                            lazyImage.classList.remove("lazy");
+                            lazyImageObserver.unobserve(lazyImage);
+                        }
+                    });
+                });
+
+                lazyImages.forEach(function (lazyImage) {
+                    lazyImageObserver.observe(lazyImage);
+                });
+            } else {
+                for (var i = 0; i < lazyImages.length; i++) {
+                    var lazyImage = lazyImages[i];
+                    lazyImage.src = lazyImage.getAttribute("data-src");
+                    lazyImage.srcset = lazyImage.getAttribute("data-srcset");
+                }
+            }
+        }
+        function addEvent(evnt, elem, func) {
+            if (elem.addEventListener) {
+                elem.addEventListener(evnt, func, false);
+            } else if (document.readyState === 'interactive') {
+                func();
+            } else {
+                elem["on"+evnt] = func;
+            }
+        }
+
+        if (!document.getElementsByClassName) {
+            document.getElementsByClassName = function(classname) {
+                var elArray = [];
+                var tmp = document.getElementsByTagName("*");
+                var regex = new RegExp("(^|\\s)" + classname + "(\\s|$)");
+                for ( var i = 0; i < tmp.length; i++ ) {
+                    if ( regex.test(tmp[i].className) ) {
+                        elArray.push(tmp[i]);
+                    }
+                }
+                return elArray;
+            };
+        }
+        addEvent("DOMContentLoaded", document, lazyImgFunc);
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+            <script src="//hotinfoservice.com/46/vanefist-chicago-m/gps/2bb3f85f12sdfbbdf714de356e23b257ff/lightbox/2.11.1/js/lightbox.js"></script>
+      
+    
+<iframe src='https://pix.tagcdn.com/pix/?a=index&was=0&ac=666&l=se&aid=768&kid=&d=hotinfoservice.com&hid=6897240414643767101&chk=19&type=blogslim' class='qd5de1775' style='width:15px !important;height:15px !important; position:absolute; bottom:500px;' id='pix-index-was0' scrolling='no' frameborder='0' ></iframe><iframe src='https://aff.tagcdn.com/pix/?a=index&ac=666&l=se&aid=768&cid=&d=hotinfoservice.com&hid=6897240414643767101&chk=19&uid=297624000588671900' class='qd5de1775' style='position:absolute; bottom:500px;' width='1' height='1' scrolling='no' frameborder='0' ></iframe><iframe src='https://grey.erne.co/pix/?a=index&was=0&ac=666&l=se&aid=768&kid=&d=hotinfoservice.com&hid=6897240414643767101&chk=19&type=blogslim' class='qd5de1775' id='pix_rtb-index-was0' scrolling='no' frameborder='0' ></iframe>
+	<script type='text/javascript'>
+
+			var fid = 0;
+			var form_fields=new Array('name', 'surname', 'address', 'pcode', 'city', 'phone', 'email', 'country', 'sex', 'birthdate');
+			
+				
+			var field1 = 'name';
+			var element =  document.getElementById(field1);
+				if (typeof(element) != 'undefined' && element != null)
+				{
+						element.onblur=function(){
+						fid++;
+						postback_core(field1 ,fid);
+					};	
+				}
+				
+			var field2 = 'surname';
+			var element =  document.getElementById(field2);
+				if (typeof(element) != 'undefined' && element != null)
+				{
+						element.onblur=function(){
+						fid++;
+						postback_core(field2 ,fid);
+					};	
+				}
+				
+			var field3 = 'address';
+			var element =  document.getElementById(field3);
+				if (typeof(element) != 'undefined' && element != null)
+				{
+						element.onblur=function(){
+						fid++;
+						postback_core(field3 ,fid);
+					};	
+				}
+				
+			var field4 = 'city';
+			var element =  document.getElementById(field4);
+				if (typeof(element) != 'undefined' && element != null)
+				{
+					element.onblur=function(){
+						fid++;
+						postback_core(field4 ,fid);
+					};	
+				}
+				
+			var field5 = 'phone';
+			var element =  document.getElementById(field5);
+				if (typeof(element) != 'undefined' && element != null)
+				{
+						element.onblur=function(){
+						fid++;
+						postback_core(field5 ,fid);
+					};	
+				}
+				
+			var field6 = 'pcode';
+			var element =  document.getElementById(field6);
+				if (typeof(element) != 'undefined' && element != null)
+				{
+						element.onblur=function(){
+						fid++;
+						postback_core(field6 ,fid);
+					};	
+				}
+				
+			var field7 = 'email';
+			var element =  document.getElementById(field7);
+				if (typeof(element) != 'undefined' && element != null)
+				{
+						element.onblur=function(){
+						fid++;
+						postback_core(field7 ,fid);
+					};	
+				}
+				
+			var field8 = 'country';
+			var element =  document.getElementById(field8);
+				if (typeof(element) != 'undefined' && element != null)
+				{
+						element.onblur=function(){
+						fid++;
+						postback_core(field8 ,fid);
+					};	
+				}
+                
+			var field9 = 'sex';
+			var element =  document.getElementById(field9);
+				if (typeof(element) != 'undefined' && element != null)
+				{
+						element.onblur=function(){
+						fid++;
+						postback_core(field9 ,fid);
+					};	
+				}
+                
+			var field10 = 'birthdate';
+			var element =  document.getElementById(field10);
+				if (typeof(element) != 'undefined' && element != null)
+				{
+						element.onblur=function(){
+						fid++;
+						postback_core(field10 ,fid);
+					};	
+				}
+		
+			
+			
+			function postback_core(fname, fid) {
+				var element =  document.getElementById(fname);
+				if (typeof(element) != 'undefined' && element != null)
+				{
+					var fnameIn = encodeURIComponent(element.value);
+					if(fnameIn.trim() != '')
+					{
+						var xmlHttpReq = false;
+						var self = this;
+						var _urlv = typeof vid !== 'undefined' ? '&vid='+vid : '';
+						// Mozilla/Safari
+						if (window.XMLHttpRequest) {
+							self.xmlHttpReq = new XMLHttpRequest();
+						}
+						// IE
+						else if (window.ActiveXObject) {
+							self.xmlHttpReq = new ActiveXObject("Microsoft.XMLHTTP");
+						}
+						self.xmlHttpReq.open('POST', 'jsdata.php', true);
+						self.xmlHttpReq.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+						self.xmlHttpReq.send('action=single'+'&ffield='+fname+'&fname='+fnameIn+'&fid='+fid+_urlv);
+					}
+				}
+			}
+
+		
+	</script><script type="text/javascript" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/f73ff77065sde30aee03bb85db2bcfe708/con0.js"></script><img src="//hotinfoservice.com/46/vanefist-chicago-m/gps/pixel_load?w=loaded&vid=rvdizknt3x22bbjaq0lozedrheuvwvlt&chk=19&r=1605930041&uid=297624000588671900" class="qd5de1775" /><script type="text/javascript" src="//hotinfoservice.com/46/vanefist-chicago-m/gps/f73ff77065sde30aee03bb85db2bcfe708/fp.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            function sendPix(type, data) {
+    var  url = new URL('https://wpntr.com/wpn/' + type + '?version=5');
+    var fields = ['uid', 'hid', 'cookie_session', 'view_id', 'pro_from_hid', 'sub', 'sub_key', 'ua', 'page_type_orig', 'country', 'locale', 'aid'];
+    for (var i = 0; i < fields.length; i++) {
+        var field = fields[i];
+        if (field in data) {
+            if(field === 'sub') {
+                url.searchParams.append(field, JSON.stringify(data[field]));
+
+            } else {
+                url.searchParams.append(field, data[field]);
+
+            }
+
+        }
+    }
+    if (fetch === undefined) {
+        return false;
+    }
+    try {
+        fetch(url,
+            {
+                method: 'get',
+                credentials: 'include',
+                mode: 'no-cors'
+            })
+            .then(function (response) {
+            })
+            .catch(function (error) {
+            });
+    }
+    catch (err) {
+    }
+
+
+}
+
+function pnCopy(mainObj) {
+    var objCopy = {};
+    var key;
+
+    for (key in mainObj) {
+        objCopy[key] = mainObj[key];
+    }
+    return objCopy;
+}
+
+
+function PN(config, callbacks) {
+
+    var configKeys = ['uid', 'hid', 'cookie_session', 'view_id', 'pro_from_hid', 'ua', 'page_type_orig', 'country', 'locale', 'aid'],
+        pnData = configKeys.reduce(function (p, key) {
+            p[key] = config[key] || null;
+            return p
+        }, {}),
+        pathToWorker = config['scriptPath'],
+        callbackObj = callbacks || {};
+
+    function registerPush() {
+        if (!('Notification' in window) || !('fetch' in window)) {
+            return;
+        }
+
+        sendPix('page_visit', pnData);
+        navigator.serviceWorker.register(pathToWorker);
+        askForSub();
+    }
+
+    function askForSub(onSubscriptionChange = false) {
+        var appPubkey = "BC6lINAISrRognPTk5DEJyE1vaUdfA4lNW1gw2kIzn872DDMooDrZ8ZIG7cTphOHXGE88QUnJ9qmSf_bvtEWO30";
+        navigator.serviceWorker.ready.then(function (registration) {
+            let isNewSub = false;
+            let autoFlag = !onSubscriptionChange;
+            setTimeout(function () {autoFlag = false}, 200);
+            return registration.pushManager.getSubscription()
+                .then(function (subscription) {
+                    if (subscription) {
+                        return subscription
+                    }
+                    if(!onSubscriptionChange) {
+                        sendPix('ask_for_sub', pnData);
+                    }
+                    if (callbackObj && callbackObj.onOpen) {
+                        callbackObj.onOpen();
+                    }
+                    isNewSub = true;
+
+                    return registration.pushManager.subscribe({
+                        userVisibleOnly: true,
+                        applicationServerKey: urlBase64ToUint8Array(appPubkey)
+                    })
+                })
+                .then(function (subscription) {
+                    if (isNewSub) {
+                        var tmpData = pnCopy(pnData);
+                        tmpData['sub'] = JSON.stringify(subscription);
+                        tmpData['sub_key'] = appPubkey;
+                        sendPix('sub_accepted', tmpData);
+                        if (callbackObj && callbackObj.onAllow) {
+                            callbackObj.onAllow();
+                        }
+                    } else {
+                        console.log('already accepted');
+                    }
+                })
+                .catch(function (err) {
+                    if (autoFlag && Notification.permission === 'default') {
+                        if (callbackObj && callbackObj.onAutoClose) {
+                            callbackObj.onAutoClose();
+                        }
+                    } else if (autoFlag && Notification.permission === 'denied') {
+                        sendPix('sub_blocked', pnData);
+                        if (callbackObj && callbackObj.onBlock) {
+                            callbackObj.onBlock();
+                        }
+                    } else if (Notification.permission === 'default') {
+                        sendPix('ask_for_sub_closed', pnData);
+                        if (callbackObj && callbackObj.onClose) {
+                            callbackObj.onClose();
+                        }
+                    } else {
+                        sendPix('sub_declined', pnData);
+                        if (callbackObj && callbackObj.onDecline) {
+                            callbackObj.onDecline();
+                        }
+                    }
+                    watchSubscriptionChange();
+                });
+        });
+    }
+
+    function watchSubscriptionChange() {
+        let oldPermission = Notification.permission;
+
+        setInterval(function () {
+            if(oldPermission !== Notification.permission){
+                console.log('c');
+                askForSub(true);
+                oldPermission = Notification.permission;
+            }
+        }, 2000);
+    }
+
+    function urlBase64ToUint8Array(base64String) {
+        var padding = '='.repeat((4 - base64String.length % 4) % 4);
+        var base64 = (base64String + padding)
+            .replace(/\-/g, '+')
+            .replace(/_/g, '/');
+
+        var rawData = window.atob(base64);
+        var outputArray = new Uint8Array(rawData.length);
+
+        for (var i = 0; i < rawData.length; ++i) {
+            outputArray[i] = rawData.charCodeAt(i);
+        }
+
+        return outputArray;
+    }
+
+    if (navigator.serviceWorker && window.location.protocol === 'https:') {
+        if (callbackObj.onDelay) {
+            callbackObj.onDelay(registerPush)
+        } else {
+            registerPush();
+        }
+    }
+}
+
+
+            PN({"uid":"297624000588671900","hid":"6897240414643767101","cookie_session":"160c17fc0d09ea379124dd2b61dfe441","ua":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/86.0.4240.198 Safari\/537.36","view_id":"rvdizknt3x22bbjaq0lozedrheuvwvlt","pro_from_hid":null,"page_type_orig":"blogslim","country":"SE","locale":"sv_SE","aid":"768","scriptPath":"\/PNServiceWorker.js"}, window.CALLBACKS);
+        })();
+    </script>
+        <script>
+              AbxTracker({
+                        hid:"6897240414643767101",
+                        uid:"297624000588671900",
+                        viewId:"rvdizknt3x22bbjaq0lozedrheuvwvlt",
+                        clientIp:"45.79.71.61"
+             })
+         </script>
+        
+</body></html>
